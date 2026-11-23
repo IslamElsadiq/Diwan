@@ -594,13 +594,20 @@
   margin-inline-start: 8px;
 }
 .dw-brand,
-.dw-hero h1,
+.dw-hero h1 {
+  font-family:
+    "Lifta Swash Fixed",
+    "Aref Ruqaa",
+    "Noto Naskh Arabic",
+    serif;
+}
 .dw-poemhead h1,
 .dw-sectiontitle,
 .dw-ptitle,
 .dw-poethead h1,
 .dw-about h2 {
   font-family:
+    "AbdoLine-Bold",
     "Lifta Swash Fixed",
     "Aref Ruqaa",
     "Noto Naskh Arabic",
@@ -620,17 +627,19 @@
 .dw-root[data-stacked] .dw-baytnum {
   align-self: flex-end;
 }
-.dw-abyat[data-stack] .dw-bayt {
-  flex-direction: column;
-  gap: 2px;
-  align-items: center;
-}
-.dw-abyat[data-stack] .dw-bayt .dw-sadr,
-.dw-abyat[data-stack] .dw-bayt .dw-ajz {
-  flex: none;
-  width: 100%;
-  text-align: center;
-}
-.dw-abyat[data-stack] .dw-baytnum {
-  align-self: flex-end;
+@media (max-width: 640px) {
+  .dw-abyat .dw-bayt {
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+  }
+  .dw-abyat .dw-bayt .dw-sadr,
+  .dw-abyat .dw-bayt .dw-ajz {
+    flex: none;
+    width: 100%;
+    text-align: center;
+  }
+  .dw-abyat .dw-baytnum {
+    align-self: flex-end;
+  }
 }

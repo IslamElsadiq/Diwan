@@ -24938,7 +24938,7 @@ function SearchBox({ big }) {
     }
   ) });
 }
-var DEFAULTS = { font: "naskh", size: 19, theme: "light", line: 2, gap: 10, applyAll: false, kashida: 0 };
+var DEFAULTS = { font: "p:AbdoLine", size: 19, theme: "light", line: 2, gap: 10, applyAll: false, kashida: 0 };
 var KASH = { level: 0 };
 var VIEW = { size: 19, line: 2, font: "" };
 var KASH_NONJOIN = /* @__PURE__ */ new Set([..."\u0621\u0627\u0623\u0625\u0622\u062F\u0630\u0631\u0632\u0648\u0624\u0629\u0649"]);
@@ -25239,29 +25239,6 @@ function PoemPage({ pid, pidx, favs, toggleFav }) {
   const poet = poetById.get(pid);
   const poems = usePoems(pid);
   const [diac, setDiac] = (0, import_react2.useState)(true);
-  const abyatRef = (0, import_react2.useRef)(null);
-  const [autoStack, setAutoStack] = (0, import_react2.useState)(false);
-  (0, import_react2.useEffect)(() => {
-    let alive = true;
-    setAutoStack(false);
-    const measure = () => window.requestAnimationFrame(() => {
-      if (!alive) return;
-      const el = abyatRef.current;
-      if (!el) return;
-      const limit = VIEW.size * VIEW.line * 1.6;
-      let wrapped = false;
-      el.querySelectorAll(".dw-sadr, .dw-ajz").forEach((sp) => {
-        if (sp.scrollHeight > limit) wrapped = true;
-      });
-      setAutoStack(wrapped);
-    });
-    measure();
-    window.addEventListener("resize", measure);
-    return () => {
-      alive = false;
-      window.removeEventListener("resize", measure);
-    };
-  }, [pid, pidx, poems, diac, VIEW.font, VIEW.size, VIEW.line, KASH.level]);
   if (!poet) return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-empty", children: "\u0647\u0630\u0647 \u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629." });
   if (!poems) return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-empty", children: "\u062C\u0627\u0631 \u062A\u062D\u0645\u064A\u0644 \u0627\u0644\u0642\u0635\u064A\u062F\u0629\u2026" });
   const rec = poems[pidx];
@@ -25299,7 +25276,7 @@ ${abyat.map((b) => `${show(b[0])}  ${show(b[1])}`).join("\n")}
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(CopyButton, { text: typeof window !== "undefined" ? window.location.href : "", label: "\u0646\u0633\u062E \u0627\u0644\u0631\u0627\u0628\u0637", compact: true }),
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-printbtn", onClick: () => printPoem(displayTitle, poet.name, abyat.map((b) => [show(b[0]), show(b[1])])), children: "\u0637\u0628\u0627\u0639\u0629 \u0627\u0644\u0642\u0635\u064A\u062F\u0629" })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { ref: abyatRef, className: "dw-abyat", "data-stack": autoStack ? "" : void 0, children: abyat.map((b, i) => /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-bayt", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-abyat", children: abyat.map((b, i) => /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-bayt", children: [
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "dw-baytnum", children: arNum(i + 1) }),
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "dw-sadr", children: kash(show(b[0])) }),
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "dw-ajz", children: kash(show(b[1])) })
@@ -25400,7 +25377,7 @@ function RouterSwitch({ favs, toggleFav }) {
   return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_jsx_runtime2.Fragment, { children: element });
 }
 function App() {
-  const [storedPrefs, setStoredPrefs, saved] = useLocalState("diwani-prefs.v2", DEFAULTS);
+  const [storedPrefs, setStoredPrefs, saved] = useLocalState("diwani-prefs.v3", DEFAULTS);
   const prefs = { ...DEFAULTS, ...storedPrefs };
   KASH.level = prefs.kashida;
   VIEW.size = prefs.size;
