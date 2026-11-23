@@ -24914,6 +24914,7 @@ async function lookup(word, signal) {
   const response = await fetch(url.toString(), { signal });
   if (!response.ok) throw new Error("network");
   const data = await response.json();
+  if (data.error && data.error.code !== "missingtitle") throw new Error(data.error.code || "dictionary");
   if (!data.parse) return { title: word, definitions: [], choices: [] };
   const doc = new DOMParser().parseFromString(data.parse.text["*"], "text/html");
   doc.querySelectorAll(".mw-editsection,.toc,table,sup,style,script").forEach((e) => e.remove());
@@ -24964,7 +24965,9 @@ function WordMeaning({ word, context, close }) {
     return () => abort.abort();
   }, [query]);
   const source = "https://ar.wiktionary.org/wiki/" + encodeURIComponent(entry?.title || query);
-  const candidates = [.../* @__PURE__ */ new Set([query.replace(/^[وفبكل](?=.{3})/, ""), query.replace(/^ال(?=.{2})/, ""), query.replace(/^[وفبكل]ال(?=.{2})/, "")])].filter((x) => x !== query && x.length > 1);
+  const base = clean(query);
+  const forms = [base.replace(/^ال(?=.{3})/, ""), base.replace(/^[وفبكل](?=.{4})/, ""), base.replace(/^[وفبكل]ال(?=.{3})/, ""), base.replace(/^لل(?=.{3})/, "")];
+  const candidates = [.../* @__PURE__ */ new Set([...forms, ...[base, ...forms].flatMap((w) => ["\u0647\u0645\u0627", "\u0643\u0645\u0627", "\u0647\u0645", "\u0647\u0646", "\u0643\u0645", "\u0643\u0646", "\u0646\u0627", "\u0647\u0627", "\u0647"].filter((s) => w.endsWith(s) && w.length - s.length >= 3).map((s) => w.slice(0, -s.length))), base.replace(/[أإآٱ]/g, "\u0627"), base.replace(/ى$/, "\u064A")])].filter((x) => x !== base && x.length >= 3).slice(0, 8);
   return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("dialog", { ref: dialog, className: "dw-lex", "data-noresult": state !== "loading" && !entry?.definitions.length && !entry?.choices.length, dir: "rtl", onCancel: close, onClick: (e) => {
     if (e.target === dialog.current) close();
   }, children: [
@@ -24983,7 +24986,7 @@ function WordMeaning({ word, context, close }) {
       ] }),
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", onClick: () => setQuery(input.trim()), children: "\u0628\u062D\u062B" })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-lexcontent", "aria-live": "polite", children: state === "loading" ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u0646\u0628\u062D\u062B \u0641\u064A \u0648\u064A\u0643\u0627\u0645\u0648\u0633\u2026" }) : state === "error" ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u062A\u0639\u0630\u0651\u0631 \u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0628\u0627\u0644\u0645\u0639\u062C\u0645. \u0627\u0644\u0645\u0639\u0627\u0646\u064A \u0627\u0644\u0645\u062D\u0641\u0648\u0638\u0629 \u0633\u0627\u0628\u0642\u064B\u0627 \u0645\u062A\u0627\u062D\u0629 \u062F\u0648\u0646 \u0627\u062A\u0635\u0627\u0644 \u0639\u0646\u062F \u0627\u0644\u0625\u0645\u0643\u0627\u0646." }) : entry?.choices.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-lexcontent", "aria-live": "polite", children: state === "loading" ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u0646\u0628\u062D\u062B \u0641\u064A \u0648\u064A\u0643\u0627\u0645\u0648\u0633\u2026" }) : state === "error" ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u0627\u0644\u0645\u0639\u062C\u0645 \u063A\u064A\u0631 \u0645\u062A\u0627\u062D \u0627\u0644\u0622\u0646\u060C \u0623\u0648 \u0628\u0644\u063A \u062D\u062F \u0627\u0644\u0637\u0644\u0628\u0627\u062A. \u062C\u0631\u0651\u0628 \u0644\u0627\u062D\u0642\u064B\u0627 \u0623\u0648 \u0627\u0641\u062A\u062D \u0645\u0639\u062C\u0645 \u0627\u0644\u0645\u0639\u0627\u0646\u064A. \u0627\u0644\u0645\u0639\u0627\u0646\u064A \u0627\u0644\u0645\u062D\u0641\u0648\u0638\u0629 \u0633\u0627\u0628\u0642\u064B\u0627 \u0645\u062A\u0627\u062D\u0629 \u062F\u0648\u0646 \u0627\u062A\u0635\u0627\u0644 \u0639\u0646\u062F \u0627\u0644\u0625\u0645\u0643\u0627\u0646." }) : entry?.choices.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u0644\u0644\u0643\u0644\u0645\u0629 \u0623\u0643\u062B\u0631 \u0645\u0646 \u0636\u0628\u0637. \u0627\u062E\u062A\u0631 \u0645\u0627 \u064A\u0646\u0627\u0633\u0628 \u0627\u0644\u0628\u064A\u062A:" }),
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-chips", children: entry.choices.map((w) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", onClick: () => setQuery(w), children: w }, w)) })
     ] }) : entry?.definitions.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("ol", { children: entry.definitions.map((d, i) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("li", { children: d }, i)) }) : /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [

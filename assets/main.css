@@ -903,3 +903,41 @@
 .dw-lexcontent {
   font-size: 19px;
 }
+.dw-lex,
+.dw-lex *,
+.dw-daily,
+.dw-daily *,
+.dw-offline,
+.dw-offline *,
+.dw-wordhint {
+  font-family:
+    "Sakkal Kitab",
+    "Noto Naskh Arabic",
+    serif;
+}
+.dw-lex h2,
+.dw-lexhead,
+.dw-lex button,
+.dw-lexsearch label,
+.dw-dailyhead h2,
+.dw-dailyfoot a,
+.dw-offline button,
+.dw-offline h3 {
+  font-family: "Sakkal Kitab", serif;
+  font-weight: 700;
+}
+.dw-lexcontent,
+.dw-lexcontent *,
+.dw-lexcontext,
+.dw-lex footer,
+.dw-offlinebody p,
+.dw-offlinebody small,
+.dw-dailyhead span {
+  font-family: "Sakkal Kitab", serif;
+  font-weight: 400;
+}
+.dw-daily blockquote,
+.dw-daily blockquote span {
+  font-family: var(--rd-font,"AbdoLine",serif);
+  font-weight: 400;
+}
