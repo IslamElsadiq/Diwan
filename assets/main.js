@@ -1062,7 +1062,7 @@ var require_react_development = __commonJS({
           }
           return dispatcher.useContext(Context);
         }
-        function useState3(initialState) {
+        function useState5(initialState) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useState(initialState);
         }
@@ -1070,11 +1070,11 @@ var require_react_development = __commonJS({
           var dispatcher = resolveDispatcher();
           return dispatcher.useReducer(reducer, initialArg, init);
         }
-        function useRef2(initialValue) {
+        function useRef3(initialValue) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useRef(initialValue);
         }
-        function useEffect3(create, deps) {
+        function useEffect5(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useEffect(create, deps);
         }
@@ -1857,15 +1857,15 @@ var require_react_development = __commonJS({
         exports.useContext = useContext;
         exports.useDebugValue = useDebugValue;
         exports.useDeferredValue = useDeferredValue;
-        exports.useEffect = useEffect3;
+        exports.useEffect = useEffect5;
         exports.useId = useId;
         exports.useImperativeHandle = useImperativeHandle;
         exports.useInsertionEffect = useInsertionEffect;
         exports.useLayoutEffect = useLayoutEffect;
         exports.useMemo = useMemo2;
         exports.useReducer = useReducer;
-        exports.useRef = useRef2;
-        exports.useState = useState3;
+        exports.useRef = useRef3;
+        exports.useState = useState5;
         exports.useSyncExternalStore = useSyncExternalStore;
         exports.useTransition = useTransition;
         exports.version = ReactVersion;
@@ -2361,9 +2361,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React3 = require_react();
+        var React5 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React3.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React5.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -2412,7 +2412,7 @@ var require_react_dom_development = __commonJS({
         var HostPortal = 4;
         var HostComponent = 5;
         var HostText = 6;
-        var Fragment3 = 7;
+        var Fragment5 = 7;
         var Mode = 8;
         var ContextConsumer = 9;
         var ContextProvider = 10;
@@ -3569,7 +3569,7 @@ var require_react_dom_development = __commonJS({
               return "DehydratedFragment";
             case ForwardRef:
               return getWrappedName$1(type, type.render, "ForwardRef");
-            case Fragment3:
+            case Fragment5:
               return "Fragment";
             case HostComponent:
               return type;
@@ -3970,7 +3970,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React3.Children.forEach(props.children, function(child) {
+                React5.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -11998,7 +11998,7 @@ var require_react_dom_development = __commonJS({
             }
           }
           function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-            if (current2 === null || current2.tag !== Fragment3) {
+            if (current2 === null || current2.tag !== Fragment5) {
               var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
               created.return = returnFiber;
               return created;
@@ -12401,7 +12401,7 @@ var require_react_dom_development = __commonJS({
               if (child.key === key) {
                 var elementType = element.type;
                 if (elementType === REACT_FRAGMENT_TYPE) {
-                  if (child.tag === Fragment3) {
+                  if (child.tag === Fragment5) {
                     deleteRemainingChildren(returnFiber, child.sibling);
                     var existing = useFiber(child, element.props.children);
                     existing.return = returnFiber;
@@ -17877,7 +17877,7 @@ var require_react_dom_development = __commonJS({
               var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
               return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
             }
-            case Fragment3:
+            case Fragment5:
               return updateFragment(current2, workInProgress2, renderLanes2);
             case Mode:
               return updateMode(current2, workInProgress2, renderLanes2);
@@ -18149,7 +18149,7 @@ var require_react_dom_development = __commonJS({
             case SimpleMemoComponent:
             case FunctionComponent:
             case ForwardRef:
-            case Fragment3:
+            case Fragment5:
             case Mode:
             case Profiler:
             case ContextConsumer:
@@ -22410,7 +22410,7 @@ var require_react_dom_development = __commonJS({
           return fiber;
         }
         function createFiberFromFragment(elements, mode, lanes, key) {
-          var fiber = createFiber(Fragment3, elements, key, mode);
+          var fiber = createFiber(Fragment5, elements, key, mode);
           fiber.lanes = lanes;
           return fiber;
         }
@@ -23566,7 +23566,7 @@ var require_react_jsx_runtime_development = __commonJS({
     if (true) {
       (function() {
         "use strict";
-        var React3 = require_react();
+        var React5 = require_react();
         var REACT_ELEMENT_TYPE = /* @__PURE__ */ Symbol.for("react.element");
         var REACT_PORTAL_TYPE = /* @__PURE__ */ Symbol.for("react.portal");
         var REACT_FRAGMENT_TYPE = /* @__PURE__ */ Symbol.for("react.fragment");
@@ -23592,7 +23592,7 @@ var require_react_jsx_runtime_development = __commonJS({
           }
           return null;
         }
-        var ReactSharedInternals = React3.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React5.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -24442,11 +24442,11 @@ var require_react_jsx_runtime_development = __commonJS({
             return jsxWithValidation(type, props, key, false);
           }
         }
-        var jsx4 = jsxWithValidationDynamic;
-        var jsxs3 = jsxWithValidationStatic;
+        var jsx6 = jsxWithValidationDynamic;
+        var jsxs5 = jsxWithValidationStatic;
         exports.Fragment = REACT_FRAGMENT_TYPE;
-        exports.jsx = jsx4;
-        exports.jsxs = jsxs3;
+        exports.jsx = jsx6;
+        exports.jsxs = jsxs5;
       })();
     }
   }
@@ -24468,7 +24468,7 @@ var require_jsx_runtime = __commonJS({
 var import_client = __toESM(require_client());
 
 // src/App.tsx
-var import_react2 = __toESM(require_react());
+var import_react4 = __toESM(require_react());
 
 // src/shims.tsx
 var import_react = __toESM(require_react());
@@ -24897,8 +24897,226 @@ function stackFor(key) {
   return BUNDLED_FONTS[0].stack;
 }
 
-// src/App.tsx
+// src/WordMeaning.tsx
+var import_react2 = __toESM(require_react());
 var import_jsx_runtime2 = __toESM(require_jsx_runtime());
+var memory = /* @__PURE__ */ new Map();
+var clean = (s) => s.replace(/[ً-ْٰـ]/g, "").replace(/[^ء-ي]/g, "");
+async function lookup(word, signal) {
+  if (memory.has(word)) return memory.get(word);
+  try {
+    const saved = JSON.parse(localStorage.getItem("diwan-lex:" + word) || "null");
+    if (saved) return saved;
+  } catch {
+  }
+  const url = new URL("https://ar.wiktionary.org/w/api.php");
+  url.search = new URLSearchParams({ action: "parse", page: word, prop: "text|revid", format: "json", origin: "*", redirects: "1" }).toString();
+  const response = await fetch(url.toString(), { signal });
+  if (!response.ok) throw new Error("network");
+  const data = await response.json();
+  if (!data.parse) return { title: word, definitions: [], choices: [] };
+  const doc = new DOMParser().parseFromString(data.parse.text["*"], "text/html");
+  doc.querySelectorAll(".mw-editsection,.toc,table,sup,style,script").forEach((e) => e.remove());
+  const root = doc.querySelector(".mw-parser-output") || doc.body;
+  const nodes = [...root.children];
+  const heading = (e) => /^H[1-6]$/.test(e.tagName) ? e : e.querySelector("h1,h2,h3,h4,h5,h6");
+  const arabicIndex = nodes.findIndex((e) => {
+    const h = heading(e);
+    return h && /^عربية/.test(h.textContent?.trim() || "") && /^H[12]$/.test(h.tagName);
+  });
+  if (arabicIndex < 0) return { title: data.parse.title, definitions: [], choices: [] };
+  const selected = [];
+  for (let i = Math.max(0, arabicIndex + 1); i < nodes.length; i++) {
+    const h = heading(nodes[i]);
+    if (h && (/^H[12]$/.test(h.tagName) || /الأصل|الترجمات|من الجذر|انظر/.test(h.textContent || ""))) break;
+    selected.push(nodes[i]);
+  }
+  const text = selected.map((e) => e.textContent).join(" ");
+  const choices = /قائمة توضيح|هل تقصد/.test(text) ? [...new Set(selected.flatMap((e) => [...e.querySelectorAll("li a")].map((a) => a.textContent?.trim() || "")).filter((w) => clean(w) === clean(word) && w !== word))].slice(0, 12) : [];
+  const definitions = choices.length ? [] : [...new Set(selected.flatMap((e) => [...e.matches("ol") ? [e] : e.querySelectorAll("ol")].flatMap((ol) => [...ol.children].map((li) => li.textContent?.trim().replace(/\s+/g, " ") || ""))))].filter(Boolean).slice(0, 6);
+  const entry = { title: data.parse.title, definitions, choices, revision: data.parse.revid };
+  memory.set(word, entry);
+  try {
+    localStorage.setItem("diwan-lex:" + word, JSON.stringify(entry));
+  } catch {
+  }
+  return entry;
+}
+function WordMeaning({ word, context, close }) {
+  const dialog = (0, import_react2.useRef)(null);
+  const [query, setQuery] = (0, import_react2.useState)(clean(word));
+  const [input, setInput] = (0, import_react2.useState)(clean(word));
+  const [entry, setEntry] = (0, import_react2.useState)(null);
+  const [state, setState] = (0, import_react2.useState)("loading");
+  (0, import_react2.useEffect)(() => {
+    dialog.current?.showModal();
+  }, []);
+  (0, import_react2.useEffect)(() => {
+    const abort = new AbortController();
+    setState("loading");
+    setEntry(null);
+    lookup(query, abort.signal).then((e) => {
+      setEntry(e);
+      setState("ready");
+    }).catch((e) => {
+      if (e.name !== "AbortError") setState("error");
+    });
+    return () => abort.abort();
+  }, [query]);
+  const source = "https://ar.wiktionary.org/wiki/" + encodeURIComponent(entry?.title || query);
+  const candidates = [.../* @__PURE__ */ new Set([query.replace(/^[وفبكل](?=.{3})/, ""), query.replace(/^ال(?=.{2})/, ""), query.replace(/^[وفبكل]ال(?=.{2})/, "")])].filter((x) => x !== query && x.length > 1);
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("dialog", { ref: dialog, className: "dw-lex", "data-noresult": state !== "loading" && !entry?.definitions.length && !entry?.choices.length, dir: "rtl", onCancel: close, onClick: (e) => {
+    if (e.target === dialog.current) close();
+  }, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-lexhead", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: "\u0645\u0639\u0646\u0649 \u0627\u0644\u0643\u0644\u0645\u0629" }),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", onClick: close, "aria-label": "\u0625\u063A\u0644\u0627\u0642 \u0627\u0644\u0645\u0639\u0646\u0649", children: "\xD7" })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h2", { children: entry?.title || query }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { className: "dw-lexcontext", children: context }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-lexsearch", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("label", { children: [
+        "\u0627\u0628\u062D\u062B \u0639\u0646 \u0635\u064A\u063A\u0629 \u0623\u062E\u0631\u0649",
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("input", { value: input, onChange: (e) => setInput(e.target.value), onKeyDown: (e) => {
+          if (e.key === "Enter") setQuery(input.trim());
+        } })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", onClick: () => setQuery(input.trim()), children: "\u0628\u062D\u062B" })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-lexcontent", "aria-live": "polite", children: state === "loading" ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u0646\u0628\u062D\u062B \u0641\u064A \u0648\u064A\u0643\u0627\u0645\u0648\u0633\u2026" }) : state === "error" ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u062A\u0639\u0630\u0651\u0631 \u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0628\u0627\u0644\u0645\u0639\u062C\u0645. \u0627\u0644\u0645\u0639\u0627\u0646\u064A \u0627\u0644\u0645\u062D\u0641\u0648\u0638\u0629 \u0633\u0627\u0628\u0642\u064B\u0627 \u0645\u062A\u0627\u062D\u0629 \u062F\u0648\u0646 \u0627\u062A\u0635\u0627\u0644 \u0639\u0646\u062F \u0627\u0644\u0625\u0645\u0643\u0627\u0646." }) : entry?.choices.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u0644\u0644\u0643\u0644\u0645\u0629 \u0623\u0643\u062B\u0631 \u0645\u0646 \u0636\u0628\u0637. \u0627\u062E\u062A\u0631 \u0645\u0627 \u064A\u0646\u0627\u0633\u0628 \u0627\u0644\u0628\u064A\u062A:" }),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-chips", children: entry.choices.map((w) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", onClick: () => setQuery(w), children: w }, w)) })
+    ] }) : entry?.definitions.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("ol", { children: entry.definitions.map((d, i) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("li", { children: d }, i)) }) : /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u0644\u0645 \u0646\u062C\u062F \u062A\u0639\u0631\u064A\u0641\u064B\u0627 \u0639\u0631\u0628\u064A\u064B\u0627 \u0648\u0627\u0636\u062D\u064B\u0627 \u0644\u0647\u0630\u0647 \u0627\u0644\u0635\u064A\u063A\u0629. \u0642\u062F \u062A\u0643\u0648\u0646 \u0643\u0644\u0645\u0629 \u0645\u062A\u0635\u0644\u0629 \u0628\u062D\u0631\u0641 \u0623\u0648 \u0636\u0645\u064A\u0631\u060C \u0623\u0648 \u0644\u0641\u0638\u064B\u0627 \u062A\u0631\u0627\u062B\u064A\u064B\u0627 \u063A\u064A\u0631 \u0645\u063A\u0637\u0651\u0649." }),
+      candidates.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("small", { children: "\u0635\u064A\u063A \u0645\u062D\u062A\u0645\u0644\u0629 \u0644\u0644\u0628\u062D\u062B\u060C \u0644\u064A\u0633\u062A \u062A\u062D\u0644\u064A\u0644\u064B\u0627 \u0645\u0624\u0643\u062F\u064B\u0627:" }),
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-chips", children: candidates.map((w) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", onClick: () => setQuery(w), children: w }, w)) })
+      ] }) : null
+    ] }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { className: "dw-lexnote", children: "\u0645\u0639\u0627\u0646\u064D \u0645\u0639\u062C\u0645\u064A\u0629 \u0645\u062D\u062A\u0645\u0644\u0629\u060C \u0648\u0644\u064A\u0633\u062A \u062A\u0641\u0633\u064A\u0631\u064B\u0627 \u0645\u0624\u0643\u062F\u064B\u0627 \u0644\u0645\u0631\u0627\u062F \u0627\u0644\u0634\u0627\u0639\u0631." }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", { className: "dw-lexexternal", href: "https://www.almaany.com/ar/dict/ar-ar/" + encodeURIComponent(clean(word)) + "/", target: "_blank", rel: "noopener noreferrer", children: "\u0627\u0641\u062A\u062D \u0641\u064A \u0645\u0639\u062C\u0645 \u0627\u0644\u0645\u0639\u0627\u0646\u064A \u2197" }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("footer", { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("a", { href: source, target: "_blank", rel: "noopener noreferrer", children: [
+        "\u0648\u064A\u0643\u0627\u0645\u0648\u0633: ",
+        entry?.title || query
+      ] }),
+      " \xB7 ",
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", { href: "https://creativecommons.org/licenses/by-sa/4.0/deed.ar", target: "_blank", rel: "noopener noreferrer", children: "CC BY-SA 4.0" }),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("br", {}),
+      "\u0645\u0642\u062A\u0637\u0641\u0627\u062A \u0645\u0646 \u0645\u0633\u0627\u0647\u0645\u064A \u0648\u064A\u0643\u0627\u0645\u0648\u0633\u060C \u0627\u0633\u062A\u064F\u062E\u0631\u062C\u062A \u0648\u0639\u064F\u0631\u0636\u062A \u0628\u062A\u0646\u0633\u064A\u0642 \u0645\u062E\u062A\u0635\u0631. \u064A\u0645\u0643\u0646 \u0627\u0644\u0631\u062C\u0648\u0639 \u0625\u0644\u0649 \u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0635\u0641\u062D\u0629 \u0644\u0645\u0639\u0631\u0641\u0629 \u0627\u0644\u0645\u0633\u0627\u0647\u0645\u064A\u0646."
+    ] })
+  ] });
+}
+
+// src/Features.tsx
+var import_react3 = __toESM(require_react());
+var import_jsx_runtime3 = __toESM(require_jsx_runtime());
+var dayKey = () => new Intl.DateTimeFormat("en-CA", { timeZone: "Africa/Cairo", year: "numeric", month: "2-digit", day: "2-digit" }).format(/* @__PURE__ */ new Date());
+function DailyVerse() {
+  const [date, setDate] = (0, import_react3.useState)(dayKey);
+  const [daily, setDaily] = (0, import_react3.useState)(null);
+  (0, import_react3.useEffect)(() => {
+    const id = setInterval(() => setDate(dayKey()), 6e4);
+    return () => clearInterval(id);
+  }, []);
+  (0, import_react3.useEffect)(() => {
+    let alive = true;
+    let seed = 2166136261;
+    for (const c of date) seed = Math.imul(seed ^ c.charCodeAt(0), 16777619) >>> 0;
+    const row = POEM_INDEX[seed % POEM_INDEX.length];
+    loadPoetPoems(row[0]).then((poems) => {
+      const poem = poems[row[1]];
+      if (alive && poem) setDaily({ pid: row[0], index: row[1], title: row[2], poet: POETS.find((p) => p.id === row[0])?.name || "", verse: poem[3][seed % poem[3].length] });
+    });
+    return () => {
+      alive = false;
+    };
+  }, [date]);
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("section", { className: "dw-daily", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "dw-dailyhead", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("h2", { children: "\u0628\u064A\u062A \u0627\u0644\u064A\u0648\u0645" }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("span", { children: [
+        date,
+        " \xB7 \u0628\u062A\u0648\u0642\u064A\u062A \u0627\u0644\u0642\u0627\u0647\u0631\u0629"
+      ] })
+    ] }),
+    daily ? /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)(import_jsx_runtime3.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("blockquote", { children: daily.verse.map((line, i) => /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { children: line }, i)) }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "dw-dailyfoot", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { className: "dw-poetlink", children: daily.poet }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Link, { to: `/poem/${daily.pid}-${daily.index}`, children: "\u0627\u0642\u0631\u0623 \u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u2190" })
+      ] })
+    ] }) : /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { children: "\u062C\u0627\u0631 \u0627\u062E\u062A\u064A\u0627\u0631 \u0628\u064A\u062A \u0627\u0644\u064A\u0648\u0645\u2026" })
+  ] });
+}
+function OfflinePanel() {
+  const [open, setOpen] = (0, import_react3.useState)(false);
+  const [status, setStatus] = (0, import_react3.useState)("");
+  const [progress, setProgress] = (0, import_react3.useState)(null);
+  const [install, setInstall] = (0, import_react3.useState)(null);
+  const standalone = typeof window !== "undefined" && !!window.__DIWAN_STANDALONE__;
+  (0, import_react3.useEffect)(() => {
+    if (!standalone || !("serviceWorker" in navigator)) return;
+    const onInstall = (e) => {
+      e.preventDefault();
+      setInstall(e);
+    };
+    const onMessage = (e) => {
+      if (e.data?.type === "OFFLINE_PROGRESS") {
+        setProgress(e.data.total ? Math.round(e.data.done / e.data.total * 100) : 0);
+        setStatus(`\u062D\u064F\u0641\u0638 ${e.data.done} \u0645\u0646 ${e.data.total} \u0645\u0644\u0641`);
+      }
+      if (e.data?.type === "OFFLINE_DONE") {
+        setProgress(null);
+        setStatus("\u0627\u0644\u0645\u0643\u062A\u0628\u0629 \u0643\u0627\u0645\u0644\u0629 \u0645\u062D\u0641\u0648\u0638\u0629 \u0639\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u062C\u0647\u0627\u0632 \u0644\u0647\u0630\u0647 \u0627\u0644\u0646\u0633\u062E\u0629.");
+      }
+      if (e.data?.type === "OFFLINE_ERROR") {
+        setProgress(null);
+        setStatus("\u0644\u0645 \u064A\u0643\u062A\u0645\u0644 \u0627\u0644\u062A\u0646\u0632\u064A\u0644. \u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0648\u0627\u0644\u0645\u0633\u0627\u062D\u0629 \u062B\u0645 \u0623\u0639\u062F \u0627\u0644\u0645\u062D\u0627\u0648\u0644\u0629.");
+      }
+    };
+    window.addEventListener("beforeinstallprompt", onInstall);
+    navigator.serviceWorker.addEventListener("message", onMessage);
+    navigator.serviceWorker.register("./sw.js").catch(() => setStatus("\u062A\u0639\u0630\u0651\u0631 \u062A\u0641\u0639\u064A\u0644 \u0648\u0636\u0639 \u0639\u062F\u0645 \u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0641\u064A \u0647\u0630\u0627 \u0627\u0644\u0645\u062A\u0635\u0641\u062D."));
+    return () => {
+      window.removeEventListener("beforeinstallprompt", onInstall);
+      navigator.serviceWorker.removeEventListener("message", onMessage);
+    };
+  }, []);
+  const download = async () => {
+    setProgress(0);
+    setStatus("\u062C\u0627\u0631 \u062A\u062C\u0647\u064A\u0632 \u0627\u0644\u062A\u0646\u0632\u064A\u0644\u2026");
+    try {
+      const reg = await navigator.serviceWorker.ready;
+      reg.active?.postMessage({ type: "CACHE_ALL" });
+    } catch {
+      setProgress(null);
+      setStatus("\u062A\u0639\u0630\u0651\u0631 \u0628\u062F\u0621 \u0627\u0644\u062A\u0646\u0632\u064A\u0644.");
+    }
+  };
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("section", { className: "dw-offline", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", { type: "button", className: "dw-chip", onClick: () => setOpen(!open), "aria-expanded": open, children: "\u062A\u062B\u0628\u064A\u062A \u0627\u0644\u062F\u064A\u0648\u0627\u0646 \xB7 \u0627\u0644\u0642\u0631\u0627\u0621\u0629 \u062F\u0648\u0646 \u0625\u0646\u062A\u0631\u0646\u062A" }),
+    open ? /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { className: "dw-offlinebody", children: standalone ? /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)(import_jsx_runtime3.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("h3", { children: "\u062F\u064A\u0648\u0627\u0646\u0643\u060C \u0645\u0639\u0643 \u062F\u0627\u0626\u0645\u064B\u0627" }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { children: "\u0641\u064A \u0623\u0646\u062F\u0631\u0648\u064A\u062F: \u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0645\u062A\u0635\u0641\u062D \u062B\u0645 \xAB\u062A\u062B\u0628\u064A\u062A \u0627\u0644\u062A\u0637\u0628\u064A\u0642\xBB. \u0641\u064A \u0622\u064A\u0641\u0648\u0646: \u0627\u0644\u0645\u0634\u0627\u0631\u0643\u0629 \u062B\u0645 \xAB\u0625\u0636\u0627\u0641\u0629 \u0625\u0644\u0649 \u0627\u0644\u0634\u0627\u0634\u0629 \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629\xBB \u0645\u0646 Safari." }),
+      install ? /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", { type: "button", onClick: async () => {
+        await install.prompt();
+        setInstall(null);
+      }, children: "\u062A\u062B\u0628\u064A\u062A \u0627\u0644\u062F\u064A\u0648\u0627\u0646" }) : null,
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { children: "\u062A\u064F\u062D\u0641\u0638 \u0627\u0644\u0635\u0641\u062D\u0627\u062A \u0648\u0627\u0644\u0642\u0635\u0627\u0626\u062F \u0627\u0644\u062A\u064A \u062A\u0632\u0648\u0631\u0647\u0627 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627. \u0644\u062A\u0646\u0632\u064A\u0644 \u0627\u0644\u0645\u0643\u062A\u0628\u0629 \u0643\u0644\u0647\u0627 \u0644\u0647\u0630\u0647 \u0627\u0644\u0646\u0633\u062E\u0629: \u0646\u062D\u0648 \u0668\u0660 \u0645\u064A\u063A\u0627\u0628\u0627\u064A\u062A \u0642\u0628\u0644 \u0636\u063A\u0637 \u0627\u0644\u0646\u0642\u0644. \u0627\u0633\u062A\u062E\u062F\u0645 Wi-Fi\u060C \u0648\u0627\u062A\u0631\u0643 \u0627\u0644\u0635\u0641\u062D\u0629 \u0645\u0641\u062A\u0648\u062D\u0629 \u062D\u062A\u0649 \u0627\u0644\u0627\u0643\u062A\u0645\u0627\u0644." }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", { type: "button", disabled: progress !== null, onClick: download, children: progress !== null ? `\u062C\u0627\u0631 \u0627\u0644\u062A\u0646\u0632\u064A\u0644 ${progress}\u066A` : "\u062A\u0646\u0632\u064A\u0644 \u0627\u0644\u0645\u0643\u062A\u0628\u0629 \u0643\u0627\u0645\u0644\u0629 \u0644\u0647\u0630\u0627 \u0627\u0644\u062C\u0647\u0627\u0632" }),
+      progress !== null ? /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("progress", { value: progress, max: "100" }) : null,
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { role: "status", children: status }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("small", { children: "\u0642\u062F \u064A\u0645\u0633\u062D \u0627\u0644\u0645\u062A\u0635\u0641\u062D \u0627\u0644\u0645\u0644\u0641\u0627\u062A \u0639\u0646\u062F \u0646\u0642\u0635 \u0627\u0644\u0645\u0633\u0627\u062D\u0629. \u0645\u0639\u0627\u0646\u064A \u0627\u0644\u0643\u0644\u0645\u0627\u062A \u062A\u062D\u062A\u0627\u062C \u0627\u0644\u0625\u0646\u062A\u0631\u0646\u062A \u0623\u0648\u0644 \u0645\u0631\u0629\u061B \u062A\u064F\u062D\u0641\u0638 \u0627\u0644\u0646\u062A\u0627\u0626\u062C \u0627\u0644\u062A\u064A \u0628\u062D\u062B\u062A \u0639\u0646\u0647\u0627 \u0639\u0646\u062F \u0627\u0644\u0625\u0645\u0643\u0627\u0646." })
+    ] }) : /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)(import_jsx_runtime3.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { children: "\u0627\u0644\u062A\u062B\u0628\u064A\u062A \u0648\u0627\u0644\u0639\u0645\u0644 \u062F\u0648\u0646 \u0627\u062A\u0635\u0627\u0644 \u0645\u062A\u0627\u062D\u0627\u0646 \u0641\u064A \u0627\u0644\u0646\u0633\u062E\u0629 \u0627\u0644\u0645\u0633\u062A\u0642\u0644\u0629\u060C \u0648\u0644\u064A\u0633 \u062F\u0627\u062E\u0644 \u0647\u0630\u0647 \u0627\u0644\u0645\u0639\u0627\u064A\u0646\u0629." }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", { href: "https://islamelsadiq.github.io/Diwan/", target: "_blank", rel: "noopener noreferrer", children: "\u0627\u0641\u062A\u062D \u0627\u0644\u062F\u064A\u0648\u0627\u0646 \u0644\u0644\u062A\u062B\u0628\u064A\u062A \u2197" })
+    ] }) }) : null
+  ] });
+}
+
+// src/App.tsx
+var import_jsx_runtime4 = __toESM(require_jsx_runtime());
 installBundledFonts();
 var DIAC = /[ً-ْٰـ]/g;
 var norm = (s) => s.replace(DIAC, "").replace(/[أإآٱ]/g, "\u0627").replace(/ة/g, "\u0647").replace(/ى/g, "\u064A").replace(/\s+/g, " ").trim();
@@ -24908,8 +25126,8 @@ var poetById = new Map(POETS.map((p) => [p.id, p]));
 var meterLabel = (i) => i >= 0 ? METERS[i] : null;
 var themeLabel = (i) => i >= 0 ? THEMES[i] : null;
 function usePoems(pid) {
-  const [poems, setPoems] = (0, import_react2.useState)(null);
-  (0, import_react2.useEffect)(() => {
+  const [poems, setPoems] = (0, import_react4.useState)(null);
+  (0, import_react4.useEffect)(() => {
     let on = true;
     setPoems(null);
     loadPoetPoems(pid).then((p) => {
@@ -24922,13 +25140,13 @@ function usePoems(pid) {
   return poems;
 }
 function SearchBox({ big }) {
-  const [q, setQ] = (0, import_react2.useState)("");
+  const [q, setQ] = (0, import_react4.useState)("");
   const navigate = useNavigate();
   const go = () => {
     const t = q.trim();
     if (t) navigate(`/search/${encodeURIComponent(t)}`);
   };
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-navsearch", children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-navsearch", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
     "input",
     {
       type: "search",
@@ -24975,10 +25193,10 @@ function kash(s) {
 }
 var THEME_NAMES = [["light", "\u0641\u0627\u062A\u062D"], ["sepia", "\u0648\u0631\u0642\u064A"], ["dark", "\u062F\u0627\u0643\u0646"]];
 function SettingsPanel({ prefs, set, uploaded, onUpload, savedMessage }) {
-  const [open, setOpen] = (0, import_react2.useState)(false);
-  const [busy, setBusy] = (0, import_react2.useState)(null);
-  const [error, setError] = (0, import_react2.useState)(null);
-  const fileRef = (0, import_react2.useRef)(null);
+  const [open, setOpen] = (0, import_react4.useState)(false);
+  const [busy, setBusy] = (0, import_react4.useState)(null);
+  const [error, setError] = (0, import_react4.useState)(null);
+  const fileRef = (0, import_react4.useRef)(null);
   const up = (k, v) => set({ ...prefs, [k]: v });
   const pickGoogle = (family) => {
     if (!family) return;
@@ -24996,23 +25214,23 @@ function SettingsPanel({ prefs, set, uploaded, onUpload, savedMessage }) {
       up("font", choice.key);
     }).catch(() => setError("\u062A\u0639\u0630\u0631 \u0642\u0631\u0627\u0621\u0629 \u0645\u0644\u0641 \u0627\u0644\u062E\u0637. \u0627\u0644\u0645\u0642\u0628\u0648\u0644: ttf \u0623\u0648 otf \u0623\u0648 woff \u0623\u0648 woff2.")).finally(() => setBusy(null));
   };
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-settings", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "aria-expanded": open, onClick: () => setOpen(!open), children: "\u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u0642\u0631\u0627\u0621\u0629" }),
-    open ? /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-panel", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-preview", style: { fontFamily: stackFor(prefs.font), fontSize: Math.min(prefs.size + 4, 30) }, children: "\u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u064E\u0651\u0647\u0650 \u0627\u0644\u0631\u064E\u0651\u062D\u0652\u0645\u064E\u0670\u0646\u0650 \u0627\u0644\u0631\u064E\u0651\u062D\u0650\u064A\u0645\u0650" }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("label", { children: "\u062E\u0637\u0648\u0637 \u0627\u0644\u0645\u0648\u0642\u0639" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { children: BUNDLED_FONTS.map((f) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": prefs.font === f.key, onClick: () => up("font", f.key), children: f.label }, f.key)) })
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-settings", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "aria-expanded": open, onClick: () => setOpen(!open), children: "\u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u0642\u0631\u0627\u0621\u0629" }),
+    open ? /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-panel", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-preview", style: { fontFamily: stackFor(prefs.font), fontSize: Math.min(prefs.size + 4, 30) }, children: "\u0628\u0650\u0633\u0652\u0645\u0650 \u0627\u0644\u0644\u064E\u0651\u0647\u0650 \u0627\u0644\u0631\u064E\u0651\u062D\u0652\u0645\u064E\u0670\u0646\u0650 \u0627\u0644\u0631\u064E\u0651\u062D\u0650\u064A\u0645\u0650" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("label", { children: "\u062E\u0637\u0648\u0637 \u0627\u0644\u0645\u0648\u0642\u0639" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: BUNDLED_FONTS.map((f) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": prefs.font === f.key, onClick: () => up("font", f.key), children: f.label }, f.key)) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("label", { children: "\u062E\u0637\u0648\u0637 \u062E\u0627\u0635\u0629" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { children: PRIVATE_FONTS.map((f) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": prefs.font === f.key, onClick: () => up("font", f.key), children: f.label }, f.key)) })
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("label", { children: "\u062E\u0637\u0648\u0637 \u062E\u0627\u0635\u0629" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: PRIVATE_FONTS.map((f) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": prefs.font === f.key, onClick: () => up("font", f.key), children: f.label }, f.key)) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("label", { children: "\u062E\u0637\u0648\u0637 \u062C\u0648\u062C\u0644" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("select", { className: "dw-select", value: prefs.font.startsWith("g:") ? prefs.font.slice(2) : "", disabled: busy !== null, onChange: (e) => pickGoogle(e.target.value), "aria-label": "\u0627\u062E\u062A\u064A\u0627\u0631 \u062E\u0637 \u0645\u0646 \u062E\u0637\u0648\u0637 \u062C\u0648\u062C\u0644", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("option", { value: "", children: "\u0627\u062E\u062A\u0631 \u062E\u0637\u064B\u0627 \u0645\u0646 \u062C\u0648\u062C\u0644\u2026" }),
-          GOOGLE_FONTS.map((g) => /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("option", { value: g.family, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("label", { children: "\u062E\u0637\u0648\u0637 \u062C\u0648\u062C\u0644" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("select", { className: "dw-select", value: prefs.font.startsWith("g:") ? prefs.font.slice(2) : "", disabled: busy !== null, onChange: (e) => pickGoogle(e.target.value), "aria-label": "\u0627\u062E\u062A\u064A\u0627\u0631 \u062E\u0637 \u0645\u0646 \u062E\u0637\u0648\u0637 \u062C\u0648\u062C\u0644", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("option", { value: "", children: "\u0627\u062E\u062A\u0631 \u062E\u0637\u064B\u0627 \u0645\u0646 \u062C\u0648\u062C\u0644\u2026" }),
+          GOOGLE_FONTS.map((g) => /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("option", { value: g.family, children: [
             g.label,
             " (",
             g.family,
@@ -25020,52 +25238,52 @@ function SettingsPanel({ prefs, set, uploaded, onUpload, savedMessage }) {
           ] }, g.family))
         ] }) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("label", { children: "\u0627\u0631\u0641\u0639 \u062E\u0637\u064B\u0627 \u0645\u0646 \u062C\u0647\u0627\u0632\u0643" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { children: [
-          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("input", { ref: fileRef, type: "file", accept: ".ttf,.otf,.woff,.woff2", style: { display: "none" }, onChange: (e) => {
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("label", { children: "\u0627\u0631\u0641\u0639 \u062E\u0637\u064B\u0627 \u0645\u0646 \u062C\u0647\u0627\u0632\u0643" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("input", { ref: fileRef, type: "file", accept: ".ttf,.otf,.woff,.woff2", style: { display: "none" }, onChange: (e) => {
             pickFile(e.target.files?.[0] || null);
             e.target.value = "";
           } }),
-          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", disabled: busy !== null, onClick: () => fileRef.current?.click(), children: busy === "upload" ? "\u062C\u0627\u0631 \u0627\u0644\u0631\u0641\u0639\u2026" : "\u0627\u062E\u062A\u064A\u0627\u0631 \u0645\u0644\u0641 \u062E\u0637" })
+          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", disabled: busy !== null, onClick: () => fileRef.current?.click(), children: busy === "upload" ? "\u062C\u0627\u0631 \u0627\u0644\u0631\u0641\u0639\u2026" : "\u0627\u062E\u062A\u064A\u0627\u0631 \u0645\u0644\u0641 \u062E\u0637" })
         ] })
       ] }),
-      uploaded.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("label", { children: "\u062E\u0637\u0648\u0637\u0643 \u0627\u0644\u0645\u0631\u0641\u0648\u0639\u0629" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { children: uploaded.map((f) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": prefs.font === f.key, onClick: () => up("font", f.key), children: f.label }, f.key)) })
+      uploaded.length ? /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("label", { children: "\u062E\u0637\u0648\u0637\u0643 \u0627\u0644\u0645\u0631\u0641\u0648\u0639\u0629" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: uploaded.map((f) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": prefs.font === f.key, onClick: () => up("font", f.key), children: f.label }, f.key)) })
       ] }) : null,
-      busy && busy !== "upload" ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-hint", children: "\u062C\u0627\u0631 \u062A\u062D\u0645\u064A\u0644 \u0627\u0644\u062E\u0637 \u0645\u0646 \u062C\u0648\u062C\u0644\u2026" }) : null,
-      error ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-hint", role: "alert", children: error }) : null,
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("label", { children: "\u0627\u0644\u0633\u0645\u0629" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { children: THEME_NAMES.map(([k, n]) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": prefs.theme === k, onClick: () => up("theme", k), children: n }, k)) })
+      busy && busy !== "upload" ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-hint", children: "\u062C\u0627\u0631 \u062A\u062D\u0645\u064A\u0644 \u0627\u0644\u062E\u0637 \u0645\u0646 \u062C\u0648\u062C\u0644\u2026" }) : null,
+      error ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-hint", role: "alert", children: error }) : null,
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("label", { children: "\u0627\u0644\u0633\u0645\u0629" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: THEME_NAMES.map(([k, n]) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": prefs.theme === k, onClick: () => up("theme", k), children: n }, k)) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("label", { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("label", { children: [
           "\u062D\u062C\u0645 \u0627\u0644\u062E\u0637 ",
           arNum(prefs.size)
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("input", { type: "range", min: 14, max: 34, step: 1, value: prefs.size, onChange: (e) => up("size", Number(e.target.value)) })
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("input", { type: "range", min: 14, max: 34, step: 1, value: prefs.size, onChange: (e) => up("size", Number(e.target.value)) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("label", { children: "\u062A\u0628\u0627\u0639\u062F \u0627\u0644\u0633\u0637\u0648\u0631" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("input", { type: "range", min: 1.4, max: 3, step: 0.1, value: prefs.line, onChange: (e) => up("line", Number(e.target.value)) })
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("label", { children: "\u062A\u0628\u0627\u0639\u062F \u0627\u0644\u0633\u0637\u0648\u0631" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("input", { type: "range", min: 1.4, max: 3, step: 0.1, value: prefs.line, onChange: (e) => up("line", Number(e.target.value)) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("label", { children: "\u062A\u0628\u0627\u0639\u062F \u0627\u0644\u0623\u0628\u064A\u0627\u062A" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("input", { type: "range", min: 0, max: 32, step: 2, value: prefs.gap, onChange: (e) => up("gap", Number(e.target.value)) })
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("label", { children: "\u062A\u0628\u0627\u0639\u062F \u0627\u0644\u0623\u0628\u064A\u0627\u062A" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("input", { type: "range", min: 0, max: 32, step: 2, value: prefs.gap, onChange: (e) => up("gap", Number(e.target.value)) })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("label", { children: "\u062A\u0637\u0648\u064A\u0644 \u0627\u0644\u062D\u0631\u0648\u0641 (\u0643\u0634\u064A\u062F\u0629)" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("input", { type: "range", min: 0, max: 3, step: 1, value: prefs.kashida, onChange: (e) => up("kashida", Number(e.target.value)) }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "dw-kashlabel", children: ["\u0628\u062F\u0648\u0646", "\u062E\u0641\u064A\u0641", "\u0645\u062A\u0648\u0633\u0637", "\u0637\u0648\u064A\u0644"][prefs.kashida] })
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("label", { children: "\u062A\u0637\u0648\u064A\u0644 \u0627\u0644\u062D\u0631\u0648\u0641 (\u0643\u0634\u064A\u062F\u0629)" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("input", { type: "range", min: 0, max: 3, step: 1, value: prefs.kashida, onChange: (e) => up("kashida", Number(e.target.value)) }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { className: "dw-kashlabel", children: ["\u0628\u062F\u0648\u0646", "\u062E\u0641\u064A\u0641", "\u0645\u062A\u0648\u0633\u0637", "\u0637\u0648\u064A\u0644"][prefs.kashida] })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-row", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("label", { children: "\u0637\u0628\u0642 \u0627\u0644\u062E\u0637 \u0639\u0644\u0649 \u0643\u0644 \u0627\u0644\u0645\u0648\u0642\u0639" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": prefs.applyAll, onClick: () => up("applyAll", !prefs.applyAll), children: prefs.applyAll ? "\u0645\u0641\u0639\u0651\u0644" : "\u0639\u0644\u0649 \u0627\u0644\u0642\u0635\u0627\u0626\u062F \u0641\u0642\u0637" })
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-row", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("label", { children: "\u0637\u0628\u0642 \u0627\u0644\u062E\u0637 \u0639\u0644\u0649 \u0643\u0644 \u0627\u0644\u0645\u0648\u0642\u0639" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": prefs.applyAll, onClick: () => up("applyAll", !prefs.applyAll), children: prefs.applyAll ? "\u0645\u0641\u0639\u0651\u0644" : "\u0639\u0644\u0649 \u0627\u0644\u0642\u0635\u0627\u0626\u062F \u0641\u0642\u0637" })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", onClick: () => set(DEFAULTS), children: "\u0625\u0639\u0627\u062F\u0629 \u0627\u0644\u0636\u0628\u0637" }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-hint", children: savedMessage || "\u062A\u062D\u0641\u0638 \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0639\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u062C\u0647\u0627\u0632 \u0639\u0646\u062F \u0627\u0644\u0625\u0645\u0643\u0627\u0646\u061B \u0627\u0644\u062E\u0637\u0648\u0637 \u0627\u0644\u0645\u0631\u0641\u0648\u0639\u0629 \u0645\u0646 \u0627\u0644\u062C\u0647\u0627\u0632 \u062A\u064F\u0646\u0633\u0649 \u0639\u0646\u062F \u0625\u063A\u0644\u0627\u0642 \u0627\u0644\u0635\u0641\u062D\u0629." })
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", onClick: () => set(DEFAULTS), children: "\u0625\u0639\u0627\u062F\u0629 \u0627\u0644\u0636\u0628\u0637" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-hint", children: savedMessage || "\u062A\u062D\u0641\u0638 \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0639\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u062C\u0647\u0627\u0632 \u0639\u0646\u062F \u0627\u0644\u0625\u0645\u0643\u0627\u0646\u061B \u0627\u0644\u062E\u0637\u0648\u0637 \u0627\u0644\u0645\u0631\u0641\u0648\u0639\u0629 \u0645\u0646 \u0627\u0644\u062C\u0647\u0627\u0632 \u062A\u064F\u0646\u0633\u0649 \u0639\u0646\u062F \u0625\u063A\u0644\u0627\u0642 \u0627\u0644\u0635\u0641\u062D\u0629." })
     ] }) : null
   ] });
 }
@@ -25075,16 +25293,16 @@ function Nav() {
     const r = POEM_INDEX[Math.floor(Math.random() * POEM_INDEX.length)];
     navigate(`/poem/${r[0]}-${r[1]}`);
   };
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("nav", { className: "dw-nav", "aria-label": "\u0627\u0644\u062A\u0646\u0642\u0644", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Link, { to: "/", className: "dw-brand", children: "\u062F\u064A\u0648\u0627\u0646 \u0625\u0633\u0644\u0627\u0645" }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-navlinks", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(NavLink, { to: "/", end: true, children: "\u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629" }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(NavLink, { to: "/poets", children: "\u0627\u0644\u0634\u0639\u0631\u0627\u0621" }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(NavLink, { to: "/favorites", children: "\u0627\u0644\u0645\u0641\u0636\u0644\u0629" }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-randombtn", onClick: randomPoem, children: "\u0642\u0635\u064A\u062F\u0629 \u0639\u0634\u0648\u0627\u0626\u064A\u0629" }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(NavLink, { to: "/about", children: "\u0639\u0646 \u0627\u0644\u0645\u0648\u0642\u0639" })
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("nav", { className: "dw-nav", "aria-label": "\u0627\u0644\u062A\u0646\u0642\u0644", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Link, { to: "/", className: "dw-brand", children: "\u062F\u064A\u0648\u0627\u0646 \u0625\u0633\u0644\u0627\u0645" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-navlinks", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(NavLink, { to: "/", end: true, children: "\u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(NavLink, { to: "/poets", children: "\u0627\u0644\u0634\u0639\u0631\u0627\u0621" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(NavLink, { to: "/favorites", children: "\u0627\u0644\u0645\u0641\u0636\u0644\u0629" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-randombtn", onClick: randomPoem, children: "\u0642\u0635\u064A\u062F\u0629 \u0639\u0634\u0648\u0627\u0626\u064A\u0629" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(NavLink, { to: "/about", children: "\u0639\u0646 \u0627\u0644\u0645\u0648\u0642\u0639" })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(SearchBox, {})
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(SearchBox, {})
   ] });
 }
 function PoemRow({ pid, pidx, title, first, mi, hi, n }) {
@@ -25093,22 +25311,22 @@ function PoemRow({ pid, pidx, title, first, mi, hi, n }) {
   if (m) info.push(m.replace(/^بحر /, ""));
   const h = themeLabel(hi);
   if (h) info.push(h.replace(/^قصيدة /, ""));
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(Link, { className: "dw-prow", to: `/poem/${pid}-${pidx}`, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-ptitle", children: title || first.split("  ")[0] }),
-    title ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-pfirst", children: kash(stripDiac(first)) }) : null,
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-pinfo", children: info.join(" \xB7 ") })
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Link, { className: "dw-prow", to: `/poem/${pid}-${pidx}`, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-ptitle", children: title || first.split("  ")[0] }),
+    title ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-pfirst", children: kash(stripDiac(first)) }) : null,
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-pinfo", children: info.join(" \xB7 ") })
   ] });
 }
 function Home() {
   const topPoets = POETS.filter((p) => p.tier === 0);
   const featured = topPoets.map((p) => POEM_INDEX.find((r) => r[0] === p.id)).filter(Boolean).slice(0, 9);
   const eras = Array.from(new Set(POETS.map((p) => p.era).filter(Boolean)));
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-hero", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("img", { src: diwan_hero_default, alt: "\u0632\u062E\u0631\u0641\u0629 \u062E\u0637\u064A\u0629 \u062A\u062C\u0631\u064A\u062F\u064A\u0629 \u0628\u0623\u0633\u0644\u0648\u0628 \u0627\u0644\u062E\u0637 \u0627\u0644\u0639\u0631\u0628\u064A" }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-hero-text", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h1", { children: "\u062F\u064A\u0648\u0627\u0646 \u0625\u0633\u0644\u0627\u0645" }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("p", { children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(import_jsx_runtime4.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-hero", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("img", { src: diwan_hero_default, alt: "\u0632\u062E\u0631\u0641\u0629 \u062E\u0637\u064A\u0629 \u062A\u062C\u0631\u064A\u062F\u064A\u0629 \u0628\u0623\u0633\u0644\u0648\u0628 \u0627\u0644\u062E\u0637 \u0627\u0644\u0639\u0631\u0628\u064A" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-hero-text", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h1", { children: "\u062F\u064A\u0648\u0627\u0646 \u0625\u0633\u0644\u0627\u0645" }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("p", { children: [
           "\u0645\u0643\u062A\u0628\u0629 \u0625\u0633\u0644\u0627\u0645 \u0644\u0644\u0634\u0639\u0631 \u0627\u0644\u0639\u0631\u0628\u064A: ",
           arNum(POEM_INDEX.length),
           " \u0642\u0635\u064A\u062F\u0629 \u0645\u062E\u062A\u0627\u0631\u0629 \u0644\u0623\u0634\u0647\u0631 ",
@@ -25117,32 +25335,34 @@ function Home() {
         ] })
       ] })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-stats", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-stat", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("b", { children: arNum(POEM_INDEX.length) }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: "\u0642\u0635\u064A\u062F\u0629" })
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(DailyVerse, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(OfflinePanel, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-stats", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-stat", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("b", { children: arNum(POEM_INDEX.length) }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { children: "\u0642\u0635\u064A\u062F\u0629" })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-stat", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("b", { children: arNum(POETS.length) }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: "\u0634\u0627\u0639\u0631\u064B\u0627" })
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-stat", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("b", { children: arNum(POETS.length) }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { children: "\u0634\u0627\u0639\u0631\u064B\u0627" })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-stat", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("b", { children: arNum(eras.length) }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: "\u0639\u0635\u0648\u0631\u064B\u0627 \u0623\u062F\u0628\u064A\u0629" })
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-stat", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("b", { children: arNum(eras.length) }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { children: "\u0639\u0635\u0648\u0631\u064B\u0627 \u0623\u062F\u0628\u064A\u0629" })
       ] })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h2", { className: "dw-sectiontitle", children: "\u0623\u0634\u0647\u0631 \u0627\u0644\u0634\u0639\u0631\u0627\u0621" }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-grid", children: topPoets.map((p) => /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(Link, { className: "dw-poet", to: `/poet/${p.id}`, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "dw-mono", children: p.name.slice(0, 1) }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("span", { children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-pname", children: p.name }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-pmeta", children: [p.era, `${arNum(p.count)} \u0642\u0635\u064A\u062F\u0629`].filter(Boolean).join(" \xB7 ") })
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h2", { className: "dw-sectiontitle", children: "\u0623\u0634\u0647\u0631 \u0627\u0644\u0634\u0639\u0631\u0627\u0621" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-grid", children: topPoets.map((p) => /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Link, { className: "dw-poet", to: `/poet/${p.id}`, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { className: "dw-mono", children: p.name.slice(0, 1) }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("span", { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-pname", children: p.name }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-pmeta", children: [p.era, `${arNum(p.count)} \u0642\u0635\u064A\u062F\u0629`].filter(Boolean).join(" \xB7 ") })
       ] })
     ] }, p.id)) }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h2", { className: "dw-sectiontitle", children: "\u0645\u062E\u062A\u0627\u0631\u0627\u062A \u0645\u0646 \u0627\u0644\u062F\u064A\u0648\u0627\u0646" }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { children: featured.map((r) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(PoemRow, { pid: r[0], pidx: r[1], title: r[2], first: r[3], mi: r[4], hi: r[5], n: r[6] }, `${r[0]}-${r[1]}`)) }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h2", { className: "dw-sectiontitle", children: "\u062A\u0635\u0641\u062D \u062D\u0633\u0628 \u0627\u0644\u0639\u0635\u0631" }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-chips", children: eras.map((e) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Link, { className: "dw-chip", to: `/poets?era=${encodeURIComponent(e)}`, children: e }, e)) })
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h2", { className: "dw-sectiontitle", children: "\u0645\u062E\u062A\u0627\u0631\u0627\u062A \u0645\u0646 \u0627\u0644\u062F\u064A\u0648\u0627\u0646" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: featured.map((r) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(PoemRow, { pid: r[0], pidx: r[1], title: r[2], first: r[3], mi: r[4], hi: r[5], n: r[6] }, `${r[0]}-${r[1]}`)) }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h2", { className: "dw-sectiontitle", children: "\u062A\u0635\u0641\u062D \u062D\u0633\u0628 \u0627\u0644\u0639\u0635\u0631" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-chips", children: eras.map((e) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Link, { className: "dw-chip", to: `/poets?era=${encodeURIComponent(e)}`, children: e }, e)) })
   ] });
 }
 function useQueryEra() {
@@ -25153,79 +25373,79 @@ function useQueryEra() {
 }
 function Poets() {
   const eraParam = useQueryEra();
-  const [era, setEra] = (0, import_react2.useState)(eraParam);
-  const [q, setQ] = (0, import_react2.useState)("");
-  const eras = (0, import_react2.useMemo)(() => Array.from(new Set(POETS.map((p) => p.era).filter(Boolean))), []);
+  const [era, setEra] = (0, import_react4.useState)(eraParam);
+  const [q, setQ] = (0, import_react4.useState)("");
+  const eras = (0, import_react4.useMemo)(() => Array.from(new Set(POETS.map((p) => p.era).filter(Boolean))), []);
   const list = POETS.filter((p) => (!era || p.era === era) && (!q.trim() || norm(p.name).includes(norm(q))));
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("h2", { className: "dw-sectiontitle", children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(import_jsx_runtime4.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("h2", { className: "dw-sectiontitle", children: [
       "\u0627\u0644\u0634\u0639\u0631\u0627\u0621 (",
       arNum(list.length),
       ")"
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-navsearch", style: { margin: "0 0 12px" }, children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("input", { type: "search", placeholder: "\u0631\u0634\u062D \u0628\u0627\u0633\u0645 \u0627\u0644\u0634\u0627\u0639\u0631", value: q, onChange: (e) => setQ(e.target.value), "aria-label": "\u0631\u0634\u062D \u0627\u0644\u0634\u0639\u0631\u0627\u0621 \u0628\u0627\u0644\u0627\u0633\u0645" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-chips", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": era === null, onClick: () => setEra(null), children: "\u0643\u0644 \u0627\u0644\u0639\u0635\u0648\u0631" }),
-      eras.map((e) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": era === e, onClick: () => setEra(e), children: e }, e))
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-navsearch", style: { margin: "0 0 12px" }, children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("input", { type: "search", placeholder: "\u0631\u0634\u062D \u0628\u0627\u0633\u0645 \u0627\u0644\u0634\u0627\u0639\u0631", value: q, onChange: (e) => setQ(e.target.value), "aria-label": "\u0631\u0634\u062D \u0627\u0644\u0634\u0639\u0631\u0627\u0621 \u0628\u0627\u0644\u0627\u0633\u0645" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-chips", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": era === null, onClick: () => setEra(null), children: "\u0643\u0644 \u0627\u0644\u0639\u0635\u0648\u0631" }),
+      eras.map((e) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": era === e, onClick: () => setEra(e), children: e }, e))
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-grid", children: list.map((p) => /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(Link, { className: "dw-poet", to: `/poet/${p.id}`, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "dw-mono", children: p.name.slice(0, 1) }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("span", { children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-pname", children: p.name }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-pmeta", children: [p.era, `${arNum(p.count)} \u0642\u0635\u064A\u062F\u0629`].filter(Boolean).join(" \xB7 ") })
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-grid", children: list.map((p) => /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Link, { className: "dw-poet", to: `/poet/${p.id}`, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { className: "dw-mono", children: p.name.slice(0, 1) }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("span", { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-pname", children: p.name }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-pmeta", children: [p.era, `${arNum(p.count)} \u0642\u0635\u064A\u062F\u0629`].filter(Boolean).join(" \xB7 ") })
       ] })
     ] }, p.id)) }),
-    list.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-empty", children: "\u0644\u0627 \u064A\u0648\u062C\u062F \u0634\u0627\u0639\u0631 \u0628\u0647\u0630\u0627 \u0627\u0644\u0627\u0633\u0645 \u0641\u064A \u0627\u0644\u0645\u062E\u062A\u0627\u0631\u0627\u062A \u0627\u0644\u062D\u0627\u0644\u064A\u0629." }) : null
+    list.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-empty", children: "\u0644\u0627 \u064A\u0648\u062C\u062F \u0634\u0627\u0639\u0631 \u0628\u0647\u0630\u0627 \u0627\u0644\u0627\u0633\u0645 \u0641\u064A \u0627\u0644\u0645\u062E\u062A\u0627\u0631\u0627\u062A \u0627\u0644\u062D\u0627\u0644\u064A\u0629." }) : null
   ] });
 }
 var SORTS = [["default", "\u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A"], ["alpha", "\u0623\u0628\u062C\u062F\u064A"], ["long", "\u0627\u0644\u0623\u0637\u0648\u0644"], ["short", "\u0627\u0644\u0623\u0642\u0635\u0631"]];
 function PoetPage({ pid }) {
   const poet = poetById.get(pid);
-  const [meter, setMeter] = (0, import_react2.useState)(null);
-  const [theme, setTheme] = (0, import_react2.useState)(null);
-  const [sort, setSort] = (0, import_react2.useState)("default");
-  const [shown, setShown] = (0, import_react2.useState)(40);
-  if (!poet) return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-empty", children: "\u0647\u0630\u0627 \u0627\u0644\u0634\u0627\u0639\u0631 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F \u0641\u064A \u0627\u0644\u0645\u062E\u062A\u0627\u0631\u0627\u062A." });
+  const [meter, setMeter] = (0, import_react4.useState)(null);
+  const [theme, setTheme] = (0, import_react4.useState)(null);
+  const [sort, setSort] = (0, import_react4.useState)("default");
+  const [shown, setShown] = (0, import_react4.useState)(40);
+  if (!poet) return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-empty", children: "\u0647\u0630\u0627 \u0627\u0644\u0634\u0627\u0639\u0631 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F \u0641\u064A \u0627\u0644\u0645\u062E\u062A\u0627\u0631\u0627\u062A." });
   const rows = POEM_INDEX.filter((r) => r[0] === pid).filter((r) => !meter || meterLabel(r[4]) === meter).filter((r) => !theme || themeLabel(r[5]) === theme);
   const sorted = sort === "default" ? rows : [...rows].sort((a, b) => sort === "alpha" ? (a[2] || a[3]).localeCompare(b[2] || b[3], "ar") : sort === "long" ? b[6] - a[6] : a[6] - b[6]);
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-poemhead", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h1", { className: "dw-poetname-title", children: poet.name }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-meta", children: [
-        poet.era ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: poet.era }) : null,
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("span", { children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(import_jsx_runtime4.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-poemhead", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h1", { className: "dw-poetname-title", children: poet.name }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-meta", children: [
+        poet.era ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { children: poet.era }) : null,
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("span", { children: [
           arNum(poet.count),
           " \u0642\u0635\u064A\u062F\u0629"
         ] })
       ] })
     ] }),
-    poet.meters.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_jsx_runtime2.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-chips", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": meter === null, onClick: () => {
+    poet.meters.length ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(import_jsx_runtime4.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-chips", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": meter === null, onClick: () => {
         setMeter(null);
         setShown(40);
       }, children: "\u0643\u0644 \u0627\u0644\u0628\u062D\u0648\u0631" }),
-      poet.meters.map((m) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": meter === m, onClick: () => {
+      poet.meters.map((m) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": meter === m, onClick: () => {
         setMeter(m);
         setShown(40);
       }, children: m.replace(/^بحر /, "") }, m))
     ] }) }) : null,
-    poet.themes.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-chips", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": theme === null, onClick: () => {
+    poet.themes.length ? /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-chips", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": theme === null, onClick: () => {
         setTheme(null);
         setShown(40);
       }, children: "\u0643\u0644 \u0627\u0644\u0623\u063A\u0631\u0627\u0636" }),
-      poet.themes.map((t) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": theme === t, onClick: () => {
+      poet.themes.map((t) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": theme === t, onClick: () => {
         setTheme(t);
         setShown(40);
       }, children: t.replace(/^قصيدة /, "") }, t))
     ] }) : null,
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-chips", "aria-label": "\u062A\u0631\u062A\u064A\u0628 \u0627\u0644\u0642\u0635\u0627\u0626\u062F", children: SORTS.map(([k, n]) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-chip", "data-on": sort === k, onClick: () => {
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-chips", "aria-label": "\u062A\u0631\u062A\u064A\u0628 \u0627\u0644\u0642\u0635\u0627\u0626\u062F", children: SORTS.map(([k, n]) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-chip", "data-on": sort === k, onClick: () => {
       setSort(k);
       setShown(40);
     }, children: n }, k)) }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { children: sorted.slice(0, shown).map((r) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(PoemRow, { pid: r[0], pidx: r[1], title: r[2], first: r[3], mi: r[4], hi: r[5], n: r[6] }, `${r[0]}-${r[1]}`)) }),
-    rows.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-empty", children: "\u0644\u0627 \u062A\u0648\u062C\u062F \u0642\u0635\u0627\u0626\u062F \u0645\u0637\u0627\u0628\u0642\u0629 \u0644\u0647\u0630\u0627 \u0627\u0644\u062A\u0631\u0634\u064A\u062D." }) : null,
-    rows.length > shown ? /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("button", { type: "button", className: "dw-more", onClick: () => setShown(shown + 40), children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: sorted.slice(0, shown).map((r) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(PoemRow, { pid: r[0], pidx: r[1], title: r[2], first: r[3], mi: r[4], hi: r[5], n: r[6] }, `${r[0]}-${r[1]}`)) }),
+    rows.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-empty", children: "\u0644\u0627 \u062A\u0648\u062C\u062F \u0642\u0635\u0627\u0626\u062F \u0645\u0637\u0627\u0628\u0642\u0629 \u0644\u0647\u0630\u0627 \u0627\u0644\u062A\u0631\u0634\u064A\u062D." }) : null,
+    rows.length > shown ? /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("button", { type: "button", className: "dw-more", onClick: () => setShown(shown + 40), children: [
       "\u0639\u0631\u0636 \u0627\u0644\u0645\u0632\u064A\u062F (",
       arNum(rows.length - shown),
       " \u0642\u0635\u064A\u062F\u0629 \u0645\u062A\u0628\u0642\u064A\u0629)"
@@ -25243,11 +25463,12 @@ function printPoem(title, poet, lines) {
 function PoemPage({ pid, pidx, favs, toggleFav }) {
   const poet = poetById.get(pid);
   const poems = usePoems(pid);
-  const [diac, setDiac] = (0, import_react2.useState)(true);
-  if (!poet) return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-empty", children: "\u0647\u0630\u0647 \u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629." });
-  if (!poems) return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-empty", children: "\u062C\u0627\u0631 \u062A\u062D\u0645\u064A\u0644 \u0627\u0644\u0642\u0635\u064A\u062F\u0629\u2026" });
+  const [diac, setDiac] = (0, import_react4.useState)(true);
+  const [selectedWord, setSelectedWord] = (0, import_react4.useState)(null);
+  if (!poet) return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-empty", children: "\u0647\u0630\u0647 \u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629." });
+  if (!poems) return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-empty", children: "\u062C\u0627\u0631 \u062A\u062D\u0645\u064A\u0644 \u0627\u0644\u0642\u0635\u064A\u062F\u0629\u2026" });
   const rec = poems[pidx];
-  if (!rec) return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-empty", children: "\u0647\u0630\u0647 \u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629." });
+  if (!rec) return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-empty", children: "\u0647\u0630\u0647 \u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u063A\u064A\u0631 \u0645\u0648\u062C\u0648\u062F\u0629." });
   const [title, mi, hi, abyat] = rec;
   const show = (s) => diac ? s : stripDiac(s);
   const displayTitle = title || show(abyat[0][0]);
@@ -25259,36 +25480,48 @@ ${poet.name}
 ${abyat.map((b) => `${show(b[0])}  ${show(b[1])}`).join("\n")}
 
 \u062F\u064A\u0648\u0627\u0646 \u0625\u0633\u0644\u0627\u0645`;
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-poemhead", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h1", { children: kash(displayTitle) }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Link, { className: "dw-poetlink", to: `/poet/${pid}`, children: poet.name }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-meta", children: [
-        poet.era ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: poet.era }) : null,
-        meterLabel(mi) ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: meterLabel(mi) }) : null,
-        themeLabel(hi) ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: themeLabel(hi) }) : null,
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("span", { children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(import_jsx_runtime4.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-poemhead", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h1", { children: kash(displayTitle) }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Link, { className: "dw-poetlink", to: `/poet/${pid}`, children: poet.name }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-meta", children: [
+        poet.era ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { children: poet.era }) : null,
+        meterLabel(mi) ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { children: meterLabel(mi) }) : null,
+        themeLabel(hi) ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { children: themeLabel(hi) }) : null,
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("span", { children: [
           arNum(abyat.length),
           " ",
           abyat.length === 1 ? "\u0628\u064A\u062A" : abyat.length === 2 ? "\u0628\u064A\u062A\u0627\u0646" : abyat.length <= 10 ? "\u0623\u0628\u064A\u0627\u062A" : "\u0628\u064A\u062A\u064B\u0627"
         ] })
       ] })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-toggle", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", "data-on": isFav, onClick: () => toggleFav(favKey), children: isFav ? "\u0641\u064A \u0627\u0644\u0645\u0641\u0636\u0644\u0629" : "\u0623\u0636\u0641 \u0644\u0644\u0645\u0641\u0636\u0644\u0629" }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", "data-on": !diac, onClick: () => setDiac(!diac), children: diac ? "\u0625\u0632\u0627\u0644\u0629 \u0627\u0644\u062A\u0634\u0643\u064A\u0644" : "\u0625\u0638\u0647\u0627\u0631 \u0627\u0644\u062A\u0634\u0643\u064A\u0644" }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(CopyButton, { text: poemText, label: "\u0646\u0633\u062E \u0627\u0644\u0642\u0635\u064A\u062F\u0629", compact: true }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(CopyButton, { text: typeof window !== "undefined" ? window.location.href : "", label: "\u0646\u0633\u062E \u0627\u0644\u0631\u0627\u0628\u0637", compact: true }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", { type: "button", className: "dw-printbtn", onClick: () => printPoem(displayTitle, poet.name, abyat.map((b) => [show(b[0]), show(b[1])])), children: "\u0637\u0628\u0627\u0639\u0629 \u0627\u0644\u0642\u0635\u064A\u062F\u0629" })
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-toggle", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", "data-on": isFav, onClick: () => toggleFav(favKey), children: isFav ? "\u0641\u064A \u0627\u0644\u0645\u0641\u0636\u0644\u0629" : "\u0623\u0636\u0641 \u0644\u0644\u0645\u0641\u0636\u0644\u0629" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", "data-on": !diac, onClick: () => setDiac(!diac), children: diac ? "\u0625\u0632\u0627\u0644\u0629 \u0627\u0644\u062A\u0634\u0643\u064A\u0644" : "\u0625\u0638\u0647\u0627\u0631 \u0627\u0644\u062A\u0634\u0643\u064A\u0644" }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(CopyButton, { text: poemText, label: "\u0646\u0633\u062E \u0627\u0644\u0642\u0635\u064A\u062F\u0629", compact: true }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(CopyButton, { text: typeof window !== "undefined" ? window.location.href : "", label: "\u0646\u0633\u062E \u0627\u0644\u0631\u0627\u0628\u0637", compact: true }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", { type: "button", className: "dw-printbtn", onClick: () => printPoem(displayTitle, poet.name, abyat.map((b) => [show(b[0]), show(b[1])])), children: "\u0637\u0628\u0627\u0639\u0629 \u0627\u0644\u0642\u0635\u064A\u062F\u0629" })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-abyat", children: abyat.map((b, i) => /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-bayt", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "dw-baytnum", children: arNum(i + 1) }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "dw-sadr", children: kash(show(b[0])) }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "dw-ajz", children: kash(show(b[1])) })
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("p", { className: "dw-wordhint", children: "\u0627\u0636\u063A\u0637 \u0623\u064A \u0643\u0644\u0645\u0629 \u0641\u064A \u0627\u0644\u0623\u0628\u064A\u0627\u062A \u0644\u0627\u0633\u062A\u0643\u0634\u0627\u0641 \u0645\u0639\u0646\u0627\u0647\u0627" }),
+    selectedWord ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(WordMeaning, { word: selectedWord.word, context: selectedWord.context, close: () => setSelectedWord(null) }) : null,
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-abyat", children: abyat.map((b, i) => /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-bayt", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { className: "dw-baytnum", children: arNum(i + 1) }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { className: "dw-sadr", children: show(b[0]).split(/(\s+)/).map((w, j) => /[ء-ي]/.test(w) ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { role: "button", tabIndex: 0, className: "dw-word", onClick: () => setSelectedWord({ word: w, context: show(b.join(" \xB7 ")) }), onKeyDown: (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          setSelectedWord({ word: w, context: show(b.join(" \xB7 ")) });
+        }
+      }, children: kash(w) }, j) : w) }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { className: "dw-ajz", children: show(b[1]).split(/(\s+)/).map((w, j) => /[ء-ي]/.test(w) ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { role: "button", tabIndex: 0, className: "dw-word", onClick: () => setSelectedWord({ word: w, context: show(b.join(" \xB7 ")) }), onKeyDown: (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          setSelectedWord({ word: w, context: show(b.join(" \xB7 ")) });
+        }
+      }, children: kash(w) }, j) : w) })
     ] }, i)) }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-poemnav", children: [
-      pidx > 0 ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Link, { to: `/poem/${pid}-${pidx - 1}`, children: "\u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u0627\u0644\u0633\u0627\u0628\u0642\u0629" }) : /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", {}),
-      pidx + 1 < poems.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Link, { to: `/poem/${pid}-${pidx + 1}`, children: "\u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u0627\u0644\u062A\u0627\u0644\u064A\u0629" }) : /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", {})
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-poemnav", children: [
+      pidx > 0 ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Link, { to: `/poem/${pid}-${pidx - 1}`, children: "\u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u0627\u0644\u0633\u0627\u0628\u0642\u0629" }) : /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", {}),
+      pidx + 1 < poems.length ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Link, { to: `/poem/${pid}-${pidx + 1}`, children: "\u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u0627\u0644\u062A\u0627\u0644\u064A\u0629" }) : /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", {})
     ] })
   ] });
 }
@@ -25303,7 +25536,7 @@ function SearchPage({ q }) {
   }
   const poetHits = POETS.filter((p) => norm(p.name).includes(query));
   const poetHitIds = new Set(poetHits.map((p) => p.id));
-  const results = (0, import_react2.useMemo)(() => {
+  const results = (0, import_react4.useMemo)(() => {
     if (!query) return [];
     const out = [];
     for (const r of POEM_INDEX) {
@@ -25314,22 +25547,22 @@ function SearchPage({ q }) {
     }
     return out;
   }, [query]);
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("h2", { className: "dw-sectiontitle", children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(import_jsx_runtime4.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("h2", { className: "dw-sectiontitle", children: [
       "\u0646\u062A\u0627\u0626\u062C \u0627\u0644\u0628\u062D\u062B \u0639\u0646 \xAB",
       decodeURIComponent(q),
       "\xBB"
     ] }),
-    poetHits.length ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_jsx_runtime2.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-grid", style: { marginBottom: 18 }, children: poetHits.map((p) => /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(Link, { className: "dw-poet", to: `/poet/${p.id}`, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "dw-mono", children: p.name.slice(0, 1) }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("span", { children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-pname", children: p.name }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-pmeta", children: [p.era, `${arNum(p.count)} \u0642\u0635\u064A\u062F\u0629`].filter(Boolean).join(" \xB7 ") })
+    poetHits.length ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(import_jsx_runtime4.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-grid", style: { marginBottom: 18 }, children: poetHits.map((p) => /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Link, { className: "dw-poet", to: `/poet/${p.id}`, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("span", { className: "dw-mono", children: p.name.slice(0, 1) }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("span", { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-pname", children: p.name }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-pmeta", children: [p.era, `${arNum(p.count)} \u0642\u0635\u064A\u062F\u0629`].filter(Boolean).join(" \xB7 ") })
       ] })
     ] }, p.id)) }) }) : null,
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { children: results.map((r) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(PoemRow, { pid: r[0], pidx: r[1], title: r[2], first: r[3], mi: r[4], hi: r[5], n: r[6] }, `${r[0]}-${r[1]}`)) }),
-    results.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-empty", children: "\u0644\u0627 \u062A\u0648\u062C\u062F \u0646\u062A\u0627\u0626\u062C \u0645\u0637\u0627\u0628\u0642\u0629. \u062C\u0631\u0628 \u0643\u0644\u0645\u0627\u062A \u0623\u0639\u0645 \u0623\u0648 \u0627\u0628\u062D\u062B \u0628\u0627\u0633\u0645 \u0627\u0644\u0634\u0627\u0639\u0631." }) : null,
-    results.length >= 120 ? /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-empty", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: results.map((r) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(PoemRow, { pid: r[0], pidx: r[1], title: r[2], first: r[3], mi: r[4], hi: r[5], n: r[6] }, `${r[0]}-${r[1]}`)) }),
+    results.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-empty", children: "\u0644\u0627 \u062A\u0648\u062C\u062F \u0646\u062A\u0627\u0626\u062C \u0645\u0637\u0627\u0628\u0642\u0629. \u062C\u0631\u0628 \u0643\u0644\u0645\u0627\u062A \u0623\u0639\u0645 \u0623\u0648 \u0627\u0628\u062D\u062B \u0628\u0627\u0633\u0645 \u0627\u0644\u0634\u0627\u0639\u0631." }) : null,
+    results.length >= 120 ? /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-empty", children: [
       "\u062A\u0638\u0647\u0631 \u0623\u0648\u0644 ",
       arNum(120),
       " \u0646\u062A\u064A\u062C\u0629 \u0641\u0642\u0637\u060C \u062D\u062F\u062F \u0628\u062D\u062B\u0643 \u0623\u0643\u062B\u0631."
@@ -25337,49 +25570,49 @@ function SearchPage({ q }) {
   ] });
 }
 function About() {
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-about", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h2", { className: "dw-sectiontitle", children: "\u0639\u0646 \u062F\u064A\u0648\u0627\u0646 \u0625\u0633\u0644\u0627\u0645" }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("p", { children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-about", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h2", { className: "dw-sectiontitle", children: "\u0639\u0646 \u062F\u064A\u0648\u0627\u0646 \u0625\u0633\u0644\u0627\u0645" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("p", { children: [
       "\u062F\u064A\u0648\u0627\u0646 \u0625\u0633\u0644\u0627\u0645 \u0647\u0648 \u0645\u0648\u0642\u0639 \u0625\u0633\u0644\u0627\u0645 \u0627\u0644\u0634\u062E\u0635\u064A\u060C \u0648\u0645\u0643\u062A\u0628\u062A\u0647 \u0627\u0644\u0645\u062E\u062A\u0627\u0631\u0629 \u0645\u0646 \u0627\u0644\u0634\u0639\u0631 \u0627\u0644\u0639\u0631\u0628\u064A: ",
       arNum(POEM_INDEX.length),
       " \u0642\u0635\u064A\u062F\u0629 \u0644\u0623\u0634\u0647\u0631 ",
       arNum(POETS.length),
       " \u0634\u0627\u0639\u0631\u064B\u0627 \u0641\u064A \u0627\u0644\u062A\u0631\u0627\u062B \u0627\u0644\u0639\u0631\u0628\u064A\u060C \u0645\u0646 \u0634\u0639\u0631\u0627\u0621 \u0627\u0644\u0645\u0639\u0644\u0642\u0627\u062A \u0648\u0627\u0644\u0639\u0635\u0648\u0631 \u0627\u0644\u062C\u0627\u0647\u0644\u064A \u0648\u0627\u0644\u0623\u0645\u0648\u064A \u0648\u0627\u0644\u0639\u0628\u0627\u0633\u064A \u0648\u0627\u0644\u0623\u0646\u062F\u0644\u0633\u064A \u0648\u0635\u0648\u0644\u064B\u0627 \u0625\u0644\u0649 \u0631\u0648\u0627\u062F \u0627\u0644\u0646\u0647\u0636\u0629 \u0627\u0644\u062D\u062F\u064A\u062B\u0629. \u0627\u0644\u062A\u0635\u0641\u062D \u062D\u0631 \u062A\u0645\u0627\u0645\u064B\u0627: \u0628\u0644\u0627 \u062A\u0633\u062C\u064A\u0644 \u062F\u062E\u0648\u0644 \u0648\u0628\u0644\u0627 \u0645\u062C\u062A\u0645\u0639\u060C \u0641\u0642\u0637 \u0627\u0644\u0634\u0639\u0631."
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h2", { children: "\u0627\u0644\u0645\u062D\u062A\u0648\u0649 \u0648\u0627\u0644\u062D\u0642\u0648\u0642" }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u0627\u0644\u0642\u0635\u0627\u0626\u062F \u0627\u0644\u0645\u0639\u0631\u0648\u0636\u0629 \u0644\u0634\u0639\u0631\u0627\u0621 \u062A\u0648\u0641\u0648\u0627 \u062C\u0645\u064A\u0639\u064B\u0627 \u0642\u0628\u0644 \u0639\u0627\u0645 1956\u060C \u0648\u0623\u062D\u062F\u062B\u0647\u0645 \u0648\u0641\u0627\u0629 \u0623\u062D\u0645\u062F \u0632\u0643\u064A \u0623\u0628\u0648 \u0634\u0627\u062F\u064A (1955) \u0648\u0625\u0628\u0631\u0627\u0647\u064A\u0645 \u0646\u0627\u062C\u064A (1953) \u0648\u0639\u0644\u064A \u0645\u062D\u0645\u0648\u062F \u0637\u0647 (1949). \u0645\u062F\u0629 \u0627\u0644\u062D\u0645\u0627\u064A\u0629 \u0641\u064A \u0645\u0635\u0631 \u062D\u064A\u0627\u0629 \u0627\u0644\u0645\u0624\u0644\u0641 + 50 \u0633\u0646\u0629\u060C \u0641\u0647\u0630\u0647 \u0627\u0644\u0646\u0635\u0648\u0635 \u062E\u0627\u0631\u062C \u0627\u0644\u062D\u0645\u0627\u064A\u0629 \u0641\u064A\u0647\u0627\u061B \u0648\u0641\u064A \u0628\u0644\u062F\u0627\u0646 \u062A\u0639\u062A\u0645\u062F 70 \u0633\u0646\u0629 \u0642\u062F \u064A\u062E\u062A\u0644\u0641 \u0627\u0644\u062D\u0643\u0645 \u0644\u0644\u0634\u0639\u0631\u0627\u0621 \u0627\u0644\u0645\u062A\u0648\u0641\u064A\u0646 \u0628\u0639\u062F 1955 \u0641\u0642\u0637 \u0641\u064A \u062D\u0627\u0644\u0627\u062A \u0642\u0644\u064A\u0644\u0629. \u0627\u0644\u0634\u0639\u0631\u0627\u0621 \u0627\u0644\u0623\u062D\u064A\u0627\u0621 \u0623\u0648 \u0627\u0644\u0645\u062D\u0641\u0648\u0638\u0629 \u062D\u0642\u0648\u0642\u0647\u0645 \u0644\u0627 \u062A\u064F\u0639\u0631\u0636 \u0642\u0635\u0627\u0626\u062F\u0647\u0645 \u0647\u0646\u0627 \u0625\u0637\u0644\u0627\u0642\u064B\u0627. \u0627\u0644\u0645\u0635\u062F\u0631 \u0627\u0644\u0645\u0641\u062A\u0648\u062D \u0644\u0644\u0646\u0635\u0648\u0635 \u0647\u0648 \u0645\u062C\u0645\u0648\u0639\u0629 \xAB\u0623\u0634\u0639\u0627\u0631\xBB \u0627\u0644\u0645\u0646\u0634\u0648\u0631\u0629 \u0644\u0644\u0628\u062D\u062B \u0627\u0644\u0639\u0644\u0645\u064A\u060C \u0645\u0639 \u0645\u0631\u0627\u062C\u0639\u0629 \u0648\u062A\u0646\u0633\u064A\u0642 \u062E\u0627\u0635\u064A\u0646 \u0628\u0647\u0630\u0627 \u0627\u0644\u0645\u0648\u0642\u0639." }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h2", { children: "\u0627\u0644\u062E\u0637\u0648\u0637" }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u062E\u0637 \xAB\u0627\u0644\u062E\u0637 \u0627\u0644\u0639\u062B\u0645\u0627\u0646\u064A (\u062D\u0641\u0635)\xBB \u0645\u0646 \u0645\u062C\u0645\u0639 \u0627\u0644\u0645\u0644\u0643 \u0641\u0647\u062F \u0644\u0637\u0628\u0627\u0639\u0629 \u0627\u0644\u0645\u0635\u062D\u0641 \u0627\u0644\u0634\u0631\u064A\u0641\u060C \u0648\u064A\u0635\u0631\u062D \u062A\u0631\u062E\u064A\u0635\u0647 \u0627\u0644\u0645\u0631\u0641\u0642 \u0628\u0627\u0644\u062E\u0637 \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645\u0647 \u0648\u0646\u0633\u062E\u0647 \u0648\u062A\u0648\u0632\u064A\u0639\u0647 \u0645\u062C\u0627\u0646\u064B\u0627 \u062F\u0648\u0646 \u062A\u0639\u062F\u064A\u0644. \u0628\u0642\u064A\u0629 \u0627\u0644\u062E\u0637\u0648\u0637 \u0645\u0646 \u062E\u0637\u0648\u0637 \u062C\u0648\u062C\u0644 \u0627\u0644\u0645\u0641\u062A\u0648\u062D\u0629 (OFL)\u060C \u0648\u064A\u0645\u0643\u0646\u0643 \u0623\u064A\u0636\u064B\u0627 \u0631\u0641\u0639 \u062E\u0637\u0643 \u0627\u0644\u062E\u0627\u0635 \u0645\u0646 \u062C\u0647\u0627\u0632\u0643." }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h2", { children: "\u0637\u0631\u064A\u0642\u0629 \u0627\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645" }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("p", { children: "\u062A\u0635\u0641\u062D \u0627\u0644\u0634\u0639\u0631\u0627\u0621 \u062D\u0633\u0628 \u0627\u0644\u0639\u0635\u0631\u060C \u0648\u0631\u0634\u062D \u0642\u0635\u0627\u0626\u062F \u0643\u0644 \u0634\u0627\u0639\u0631 \u062D\u0633\u0628 \u0627\u0644\u0628\u062D\u0631 \u0623\u0648 \u0627\u0644\u063A\u0631\u0636 \u0648\u0631\u062A\u0628\u0647\u0627 \u0623\u0628\u062C\u062F\u064A\u064B\u0627 \u0623\u0648 \u062D\u0633\u0628 \u0627\u0644\u0637\u0648\u0644\u060C \u0648\u0627\u0628\u062D\u062B \u0641\u064A \u0627\u0644\u0639\u0646\u0627\u0648\u064A\u0646 \u0648\u0627\u0644\u0623\u0628\u064A\u0627\u062A \u0648\u0627\u0644\u0623\u0633\u0645\u0627\u0621. \u0632\u0631 \xAB\u0642\u0635\u064A\u062F\u0629 \u0639\u0634\u0648\u0627\u0626\u064A\u0629\xBB \u0641\u064A \u0627\u0644\u0623\u0639\u0644\u0649 \u064A\u0641\u062A\u062D \u0642\u0635\u064A\u062F\u0629 \u0645\u0646 \u0623\u064A \u0634\u0627\u0639\u0631. \u0641\u064A \u0635\u0641\u062D\u0629 \u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u064A\u0645\u0643\u0646\u0643 \u0625\u0632\u0627\u0644\u0629 \u0627\u0644\u062A\u0634\u0643\u064A\u0644 \u0623\u0648 \u0625\u0638\u0647\u0627\u0631\u0647 \u0628\u0636\u063A\u0637\u0629 \u0648\u0627\u062D\u062F\u0629\u060C \u0648\u0625\u0636\u0627\u0641\u062A\u0647\u0627 \u0625\u0644\u0649 \u0645\u0641\u0636\u0644\u062A\u0643\u060C \u0648\u0646\u0633\u062E \u0646\u0635\u0647\u0627 \u0623\u0648 \u0631\u0627\u0628\u0637\u0647\u0627 \u0644\u0644\u0645\u0634\u0627\u0631\u0643\u0629. \u0648\u0641\u064A \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u0642\u0631\u0627\u0621\u0629 \u064A\u0645\u0643\u0646\u0643 \u062A\u063A\u064A\u064A\u0631 \u0627\u0644\u062E\u0637 \u0648\u0627\u0644\u062D\u062C\u0645 \u0648\u062A\u0641\u0639\u064A\u0644 \u062A\u0637\u0648\u064A\u0644 \u0627\u0644\u062D\u0631\u0648\u0641 (\u0627\u0644\u0643\u0634\u064A\u062F\u0629) \u0628\u062B\u0644\u0627\u062B \u062F\u0631\u062C\u0627\u062A\u061B \u0648\u0627\u0644\u062A\u0637\u0648\u064A\u0644 \u0644\u0644\u0639\u0631\u0636 \u0641\u0642\u0637 \u0641\u0644\u0627 \u064A\u0624\u062B\u0631 \u0641\u064A \u0627\u0644\u0646\u0635 \u0627\u0644\u0645\u0646\u0633\u0648\u062E." })
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h2", { children: "\u0627\u0644\u0645\u062D\u062A\u0648\u0649 \u0648\u0627\u0644\u062D\u0642\u0648\u0642" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("p", { children: "\u0627\u0644\u0642\u0635\u0627\u0626\u062F \u0627\u0644\u0645\u0639\u0631\u0648\u0636\u0629 \u0644\u0634\u0639\u0631\u0627\u0621 \u062A\u0648\u0641\u0648\u0627 \u062C\u0645\u064A\u0639\u064B\u0627 \u0642\u0628\u0644 \u0639\u0627\u0645 1956\u060C \u0648\u0623\u062D\u062F\u062B\u0647\u0645 \u0648\u0641\u0627\u0629 \u0623\u062D\u0645\u062F \u0632\u0643\u064A \u0623\u0628\u0648 \u0634\u0627\u062F\u064A (1955) \u0648\u0625\u0628\u0631\u0627\u0647\u064A\u0645 \u0646\u0627\u062C\u064A (1953) \u0648\u0639\u0644\u064A \u0645\u062D\u0645\u0648\u062F \u0637\u0647 (1949). \u0645\u062F\u0629 \u0627\u0644\u062D\u0645\u0627\u064A\u0629 \u0641\u064A \u0645\u0635\u0631 \u062D\u064A\u0627\u0629 \u0627\u0644\u0645\u0624\u0644\u0641 + 50 \u0633\u0646\u0629\u060C \u0641\u0647\u0630\u0647 \u0627\u0644\u0646\u0635\u0648\u0635 \u062E\u0627\u0631\u062C \u0627\u0644\u062D\u0645\u0627\u064A\u0629 \u0641\u064A\u0647\u0627\u061B \u0648\u0641\u064A \u0628\u0644\u062F\u0627\u0646 \u062A\u0639\u062A\u0645\u062F 70 \u0633\u0646\u0629 \u0642\u062F \u064A\u062E\u062A\u0644\u0641 \u0627\u0644\u062D\u0643\u0645 \u0644\u0644\u0634\u0639\u0631\u0627\u0621 \u0627\u0644\u0645\u062A\u0648\u0641\u064A\u0646 \u0628\u0639\u062F 1955 \u0641\u0642\u0637 \u0641\u064A \u062D\u0627\u0644\u0627\u062A \u0642\u0644\u064A\u0644\u0629. \u0627\u0644\u0634\u0639\u0631\u0627\u0621 \u0627\u0644\u0623\u062D\u064A\u0627\u0621 \u0623\u0648 \u0627\u0644\u0645\u062D\u0641\u0648\u0638\u0629 \u062D\u0642\u0648\u0642\u0647\u0645 \u0644\u0627 \u062A\u064F\u0639\u0631\u0636 \u0642\u0635\u0627\u0626\u062F\u0647\u0645 \u0647\u0646\u0627 \u0625\u0637\u0644\u0627\u0642\u064B\u0627. \u0627\u0644\u0645\u0635\u062F\u0631 \u0627\u0644\u0645\u0641\u062A\u0648\u062D \u0644\u0644\u0646\u0635\u0648\u0635 \u0647\u0648 \u0645\u062C\u0645\u0648\u0639\u0629 \xAB\u0623\u0634\u0639\u0627\u0631\xBB \u0627\u0644\u0645\u0646\u0634\u0648\u0631\u0629 \u0644\u0644\u0628\u062D\u062B \u0627\u0644\u0639\u0644\u0645\u064A\u060C \u0645\u0639 \u0645\u0631\u0627\u062C\u0639\u0629 \u0648\u062A\u0646\u0633\u064A\u0642 \u062E\u0627\u0635\u064A\u0646 \u0628\u0647\u0630\u0627 \u0627\u0644\u0645\u0648\u0642\u0639." }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h2", { children: "\u0627\u0644\u062E\u0637\u0648\u0637" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("p", { children: "\u062E\u0637 \xAB\u0627\u0644\u062E\u0637 \u0627\u0644\u0639\u062B\u0645\u0627\u0646\u064A (\u062D\u0641\u0635)\xBB \u0645\u0646 \u0645\u062C\u0645\u0639 \u0627\u0644\u0645\u0644\u0643 \u0641\u0647\u062F \u0644\u0637\u0628\u0627\u0639\u0629 \u0627\u0644\u0645\u0635\u062D\u0641 \u0627\u0644\u0634\u0631\u064A\u0641\u060C \u0648\u064A\u0635\u0631\u062D \u062A\u0631\u062E\u064A\u0635\u0647 \u0627\u0644\u0645\u0631\u0641\u0642 \u0628\u0627\u0644\u062E\u0637 \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645\u0647 \u0648\u0646\u0633\u062E\u0647 \u0648\u062A\u0648\u0632\u064A\u0639\u0647 \u0645\u062C\u0627\u0646\u064B\u0627 \u062F\u0648\u0646 \u062A\u0639\u062F\u064A\u0644. \u0628\u0642\u064A\u0629 \u0627\u0644\u062E\u0637\u0648\u0637 \u0645\u0646 \u062E\u0637\u0648\u0637 \u062C\u0648\u062C\u0644 \u0627\u0644\u0645\u0641\u062A\u0648\u062D\u0629 (OFL)\u060C \u0648\u064A\u0645\u0643\u0646\u0643 \u0623\u064A\u0636\u064B\u0627 \u0631\u0641\u0639 \u062E\u0637\u0643 \u0627\u0644\u062E\u0627\u0635 \u0645\u0646 \u062C\u0647\u0627\u0632\u0643." }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("h2", { children: "\u0637\u0631\u064A\u0642\u0629 \u0627\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("p", { children: "\u062A\u0635\u0641\u062D \u0627\u0644\u0634\u0639\u0631\u0627\u0621 \u062D\u0633\u0628 \u0627\u0644\u0639\u0635\u0631\u060C \u0648\u0631\u0634\u062D \u0642\u0635\u0627\u0626\u062F \u0643\u0644 \u0634\u0627\u0639\u0631 \u062D\u0633\u0628 \u0627\u0644\u0628\u062D\u0631 \u0623\u0648 \u0627\u0644\u063A\u0631\u0636 \u0648\u0631\u062A\u0628\u0647\u0627 \u0623\u0628\u062C\u062F\u064A\u064B\u0627 \u0623\u0648 \u062D\u0633\u0628 \u0627\u0644\u0637\u0648\u0644\u060C \u0648\u0627\u0628\u062D\u062B \u0641\u064A \u0627\u0644\u0639\u0646\u0627\u0648\u064A\u0646 \u0648\u0627\u0644\u0623\u0628\u064A\u0627\u062A \u0648\u0627\u0644\u0623\u0633\u0645\u0627\u0621. \u0632\u0631 \xAB\u0642\u0635\u064A\u062F\u0629 \u0639\u0634\u0648\u0627\u0626\u064A\u0629\xBB \u0641\u064A \u0627\u0644\u0623\u0639\u0644\u0649 \u064A\u0641\u062A\u062D \u0642\u0635\u064A\u062F\u0629 \u0645\u0646 \u0623\u064A \u0634\u0627\u0639\u0631. \u0641\u064A \u0635\u0641\u062D\u0629 \u0627\u0644\u0642\u0635\u064A\u062F\u0629 \u064A\u0645\u0643\u0646\u0643 \u0625\u0632\u0627\u0644\u0629 \u0627\u0644\u062A\u0634\u0643\u064A\u0644 \u0623\u0648 \u0625\u0638\u0647\u0627\u0631\u0647 \u0628\u0636\u063A\u0637\u0629 \u0648\u0627\u062D\u062F\u0629\u060C \u0648\u0625\u0636\u0627\u0641\u062A\u0647\u0627 \u0625\u0644\u0649 \u0645\u0641\u0636\u0644\u062A\u0643\u060C \u0648\u0646\u0633\u062E \u0646\u0635\u0647\u0627 \u0623\u0648 \u0631\u0627\u0628\u0637\u0647\u0627 \u0644\u0644\u0645\u0634\u0627\u0631\u0643\u0629. \u0648\u0641\u064A \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u0642\u0631\u0627\u0621\u0629 \u064A\u0645\u0643\u0646\u0643 \u062A\u063A\u064A\u064A\u0631 \u0627\u0644\u062E\u0637 \u0648\u0627\u0644\u062D\u062C\u0645 \u0648\u062A\u0641\u0639\u064A\u0644 \u062A\u0637\u0648\u064A\u0644 \u0627\u0644\u062D\u0631\u0648\u0641 (\u0627\u0644\u0643\u0634\u064A\u062F\u0629) \u0628\u062B\u0644\u0627\u062B \u062F\u0631\u062C\u0627\u062A\u061B \u0648\u0627\u0644\u062A\u0637\u0648\u064A\u0644 \u0644\u0644\u0639\u0631\u0636 \u0641\u0642\u0637 \u0641\u0644\u0627 \u064A\u0624\u062B\u0631 \u0641\u064A \u0627\u0644\u0646\u0635 \u0627\u0644\u0645\u0646\u0633\u0648\u062E." })
   ] });
 }
 function Favorites({ favs }) {
   const favSet = new Set(favs);
   const rows = POEM_INDEX.filter((r) => favSet.has(`${r[0]}-${r[1]}`));
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("h2", { className: "dw-sectiontitle", children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(import_jsx_runtime4.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("h2", { className: "dw-sectiontitle", children: [
       "\u0642\u0635\u0627\u0626\u062F\u0643 \u0627\u0644\u0645\u0641\u0636\u0644\u0629 (",
       arNum(rows.length),
       ")"
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { children: rows.map((r) => /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(PoemRow, { pid: r[0], pidx: r[1], title: r[2], first: r[3], mi: r[4], hi: r[5], n: r[6] }, `${r[0]}-${r[1]}`)) }),
-    rows.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", { className: "dw-empty", children: "\u0644\u0627 \u0645\u0641\u0636\u0644\u0629 \u0628\u0639\u062F. \u0627\u0641\u062A\u062D \u0623\u064A \u0642\u0635\u064A\u062F\u0629 \u0648\u0627\u0636\u063A\u0637 \xAB\u0623\u0636\u0641 \u0644\u0644\u0645\u0641\u0636\u0644\u0629\xBB." }) : null
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { children: rows.map((r) => /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(PoemRow, { pid: r[0], pidx: r[1], title: r[2], first: r[3], mi: r[4], hi: r[5], n: r[6] }, `${r[0]}-${r[1]}`)) }),
+    rows.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", { className: "dw-empty", children: "\u0644\u0627 \u0645\u0641\u0636\u0644\u0629 \u0628\u0639\u062F. \u0627\u0641\u062A\u062D \u0623\u064A \u0642\u0635\u064A\u062F\u0629 \u0648\u0627\u0636\u063A\u0637 \xAB\u0623\u0636\u0641 \u0644\u0644\u0645\u0641\u0636\u0644\u0629\xBB." }) : null
   ] });
 }
 function RouterSwitch({ favs, toggleFav }) {
   const { pathname } = useLocation();
-  let element = /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Home, {});
+  let element = /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Home, {});
   let m = /^\/poet\/(\d+)\/?$/.exec(pathname);
-  if (m) element = /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(PoetPage, { pid: Number(m[1]) });
+  if (m) element = /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(PoetPage, { pid: Number(m[1]) });
   m = /^\/poem\/(\d+)-(\d+)\/?$/.exec(pathname);
-  if (m) element = /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(PoemPage, { pid: Number(m[1]), pidx: Number(m[2]), favs, toggleFav });
+  if (m) element = /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(PoemPage, { pid: Number(m[1]), pidx: Number(m[2]), favs, toggleFav });
   m = /^\/search\/(.+)\/?$/.exec(pathname);
-  if (m) element = /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(SearchPage, { q: m[1] });
-  if (pathname.replace(/\/+$/, "") === "/poets") element = /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Poets, {});
-  if (pathname.replace(/\/+$/, "") === "/favorites") element = /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Favorites, { favs });
-  if (pathname.replace(/\/+$/, "") === "/about") element = /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(About, {});
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_jsx_runtime2.Fragment, { children: element });
+  if (m) element = /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(SearchPage, { q: m[1] });
+  if (pathname.replace(/\/+$/, "") === "/poets") element = /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Poets, {});
+  if (pathname.replace(/\/+$/, "") === "/favorites") element = /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Favorites, { favs });
+  if (pathname.replace(/\/+$/, "") === "/about") element = /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(About, {});
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(import_jsx_runtime4.Fragment, { children: element });
 }
 function App() {
   const [storedPrefs, setStoredPrefs, saved] = useLocalState("diwani-prefs.v3", DEFAULTS);
@@ -25388,12 +25621,12 @@ function App() {
   VIEW.size = prefs.size;
   VIEW.line = prefs.line;
   VIEW.font = prefs.font;
-  const [uploaded, setUploaded] = (0, import_react2.useState)([]);
+  const [uploaded, setUploaded] = (0, import_react4.useState)([]);
   const set = (p) => {
     if (saved.ready) setStoredPrefs(p);
   };
   const onUpload = (f) => setUploaded((list) => list.some((x) => x.key === f.key) ? list : [...list, f]);
-  (0, import_react2.useEffect)(() => {
+  (0, import_react4.useEffect)(() => {
     if (prefs.font.startsWith("g:")) {
       loadGoogleFont(prefs.font.slice(2)).catch(() => {
       });
@@ -25405,13 +25638,13 @@ function App() {
     if (favsSaved.ready) setStoredFavs(favs.includes(k) ? favs.filter((x) => x !== k) : [...favs, k]);
   };
   const style = { "--rd-font": stackFor(prefs.font), "--rd-size": prefs.size + "px", "--rd-line": String(prefs.line), "--rd-gap": prefs.gap + "px" };
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(FileCard, { lang: "ar", dir: "rtl", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-root", "data-theme": prefs.theme, "data-applyfont": prefs.applyAll ? "all" : void 0, style, children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Nav, {}),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(SettingsPanel, { prefs, set, uploaded, onUpload, savedMessage: saved.ready ? void 0 : saved.message }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(RouterSwitch, { favs, toggleFav })
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(FileCard, { lang: "ar", dir: "rtl", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", { className: "dw-root", "data-theme": prefs.theme, "data-applyfont": prefs.applyAll ? "all" : void 0, style, children: [
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Nav, {}),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(SettingsPanel, { prefs, set, uploaded, onUpload, savedMessage: saved.ready ? void 0 : saved.message }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(RouterSwitch, { favs, toggleFav })
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(Closing, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Closing, { children: [
       "\u062F\u064A\u0648\u0627\u0646 \u0625\u0633\u0644\u0627\u0645: \u0645\u0643\u062A\u0628\u0629 \u0625\u0633\u0644\u0627\u0645 \u0627\u0644\u0634\u062E\u0635\u064A\u0629 \u0644\u0644\u0634\u0639\u0631 \u0627\u0644\u0639\u0631\u0628\u064A \u2014 ",
       arNum(POEM_INDEX.length),
       " \u0642\u0635\u064A\u062F\u0629 \u0644\u0640 ",
@@ -25422,8 +25655,8 @@ function App() {
 }
 
 // src/main.tsx
-var import_jsx_runtime3 = __toESM(require_jsx_runtime());
-(0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime3.jsx)(App, {}));
+var import_jsx_runtime5 = __toESM(require_jsx_runtime());
+(0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime5.jsx)(App, {}));
 /*! Bundled license information:
 
 react/cjs/react.development.js:

@@ -664,10 +664,10 @@
 .dw-root .dw-poetlink,
 .dw-root .dw-poetname-title {
   font-family:
-    "Palestine",
+    "Sakkal Kitab",
     "AbdoLine",
     serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 .dw-root .dw-hero p,
 .dw-root .dw-stat b,
@@ -692,4 +692,214 @@
   .dw-hero p {
     line-height: 2;
   }
+}
+.dw-word {
+  cursor: help;
+  border-radius: 4px;
+  transition: background .15s;
+}
+.dw-word:hover,
+.dw-word:focus-visible {
+  background: var(--ds-success-wash);
+  outline: 1px solid var(--ds-teal);
+}
+.dw-wordhint {
+  text-align: center;
+  font: 700 15px "Sakkal Kitab", serif;
+  color: var(--ds-ink-2);
+}
+.dw-lex {
+  box-sizing: border-box;
+  width: min(540px, calc(100vw - 28px));
+  max-height: min(720px, 85dvh);
+  padding: 28px;
+  border: 1px solid #d8d0bd;
+  border-radius: 22px;
+  background: #fdfcf9;
+  color: #29241c;
+  box-shadow: 0 24px 90px #1115;
+  overflow: auto;
+}
+.dw-lex::backdrop {
+  background: #171d1c88;
+  backdrop-filter: blur(3px);
+}
+.dw-lex * {
+  box-sizing: border-box;
+}
+.dw-lexhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #0f766e;
+  font: 700 18px "Sakkal Kitab", serif;
+}
+.dw-lex button {
+  cursor: pointer;
+  border: 1px solid #d8d0bd;
+  border-radius: 999px;
+  padding: 7px 15px;
+  background: #fff;
+  color: #29241c;
+  font: 700 18px "Sakkal Kitab", serif;
+}
+.dw-lexhead button {
+  font: 24px sans-serif;
+  padding: 2px 11px;
+}
+.dw-lex h2 {
+  font: 400 38px "AbdoLine", serif;
+  margin: 22px 0 12px;
+}
+.dw-lexcontext {
+  padding: 12px 16px;
+  border-right: 3px solid #0f766e;
+  background: #f0ede4;
+  font: 400 19px/1.9 "AbdoLine", serif;
+}
+.dw-lexcontent {
+  font: 400 21px/1.8 "Sakkal Kitab", serif;
+  min-height: 80px;
+}
+.dw-lexcontent li {
+  margin-bottom: 10px;
+}
+.dw-lexnote {
+  font: 700 16px/1.7 "Sakkal Kitab", serif;
+  color: #746a58;
+}
+.dw-lexexternal {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #0f766e;
+  border-radius: 12px;
+  color: #0f766e;
+  font: 700 20px "Sakkal Kitab", serif;
+  text-decoration: none;
+}
+.dw-lex footer {
+  margin-top: 18px;
+  font: 400 14px/1.7 "Sakkal Kitab", serif;
+  color: #746a58;
+}
+.dw-lex footer a {
+  color: #526b63;
+}
+.dw-lex[data-noresult=true] .dw-lexexternal {
+  background: #0f766e;
+  color: white;
+}
+.dw-daily {
+  border: 1px solid var(--ds-hairline);
+  border-radius: 20px;
+  background: var(--ds-muted);
+  padding: 24px;
+  margin: 0 0 20px;
+}
+.dw-dailyhead,
+.dw-dailyfoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.dw-dailyhead h2 {
+  font: 400 26px "AbdoLine-Bold", serif;
+  margin: 0;
+}
+.dw-dailyhead span {
+  font: 700 14px "Sakkal Kitab", serif;
+  color: var(--ds-ink-2);
+}
+.dw-daily blockquote {
+  margin: 24px 0;
+  font: 400 24px/2.2 "AbdoLine", serif;
+  text-align: center;
+}
+.dw-daily blockquote span {
+  display: block;
+}
+.dw-dailyfoot a {
+  color: var(--ds-teal);
+  font: 700 18px "Sakkal Kitab", serif;
+}
+.dw-offline {
+  margin: 0 0 24px;
+}
+.dw-offlinebody {
+  padding: 20px;
+  border: 1px solid var(--ds-hairline);
+  border-radius: 16px;
+  margin-top: 10px;
+  font: 400 18px/1.8 "Sakkal Kitab", serif;
+}
+.dw-offlinebody button {
+  padding: 10px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--ds-teal);
+  color: var(--ds-teal);
+  background: var(--ds-white);
+  cursor: pointer;
+}
+.dw-offlinebody a {
+  color: var(--ds-teal);
+}
+.dw-offline progress {
+  width: 100%;
+  margin-top: 12px;
+  accent-color: var(--ds-teal);
+}
+@media (max-width: 640px) {
+  .dw-lex {
+    margin: auto auto 12px;
+    border-radius: 24px 24px 16px 16px;
+    padding: 22px;
+  }
+  .dw-daily {
+    padding: 20px 16px;
+  }
+}
+.dw-root .dw-pname {
+  line-height: 1.7;
+  margin-bottom: 5px;
+}
+.dw-root .dw-poetname-title {
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+.dw-root .dw-poetlink {
+  display: inline-block;
+  line-height: 1.7;
+  margin-bottom: 5px;
+}
+.dw-lexsearch {
+  display: flex;
+  gap: 8px;
+  align-items: end;
+}
+.dw-lexsearch label {
+  flex: 1;
+  font: 700 16px "Sakkal Kitab", serif;
+}
+.dw-lexsearch input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d8d0bd;
+  background: white;
+  color: #29241c;
+  border-radius: 10px;
+  font: 400 20px "Sakkal Kitab", serif;
+}
+.dw-lexhead {
+  position: sticky;
+  top: -22px;
+  background: #fdfcf9;
+  padding: 8px 0;
+  z-index: 2;
+}
+.dw-lexcontent {
+  font-size: 19px;
 }
