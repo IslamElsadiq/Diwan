@@ -1,7 +1,7 @@
-const VERSION = 'diwan-v13-8ed9a3bdf6e5';
+const VERSION = 'diwan-v15-d34b91ac4459';
 const CACHE = VERSION;
 const ROOT = new URL('./', self.location).href;
-const shell = ["./", "./index.html", "./assets/main-YM7IGNKT.js", "./assets/main-QGPHZOXE.css", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
+const shell = ["./", "./index.html", "./assets/main-04239688.js", "./assets/main-94F2706F.css", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
 const readyClients=new Set();
 self.addEventListener('message',e=>{if(e.data?.type==='CONTROLLER_READY'&&e.source?.id)readyClients.add(e.source.id)});
 self.addEventListener('install', e => {
