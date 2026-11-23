@@ -660,3 +660,36 @@
     align-self: flex-end;
   }
 }
+.dw-root .dw-pname,
+.dw-root .dw-poetlink,
+.dw-root .dw-poetname-title {
+  font-family:
+    "Palestine",
+    "AbdoLine",
+    serif;
+  font-weight: 400;
+}
+.dw-root .dw-hero p,
+.dw-root .dw-stat b,
+.dw-root .dw-stat span {
+  font-family:
+    "AbdoLine-Black",
+    "AbdoLine",
+    serif;
+  font-weight: 400;
+}
+@media (max-width: 640px) {
+  .dw-hero .dw-hero-text {
+    position: relative;
+    inset: auto;
+    padding: 24px 16px 22px;
+    background: var(--ds-white);
+  }
+  .dw-hero h1 {
+    line-height: 1.8;
+    margin: 4px 0 18px;
+  }
+  .dw-hero p {
+    line-height: 2;
+  }
+}

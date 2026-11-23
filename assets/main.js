@@ -24713,6 +24713,9 @@ async function loadPoetPoems(id) {
 // src/photos/diwan-hero.png
 var diwan_hero_default = "./diwan-hero-6YFKSN2F.png";
 
+// src/fonts/palestine.ttf
+var palestine_default = "./palestine-32PISTGN.ttf";
+
 // src/fonts/NotoNaskhArabic.ttf
 var NotoNaskhArabic_default = "./NotoNaskhArabic-O2ASJQ36.ttf";
 
@@ -24769,6 +24772,7 @@ var BUNDLED_FONTS = [
   { key: "hafs", label: "\u0639\u062B\u0645\u0627\u0646\u064A \u062D\u0641\u0635", stack: "'KFGQPC Uthmanic Script HAFS', 'Noto Naskh Arabic', serif" }
 ];
 var PRIVATE_FONTS = [
+  { key: "p:Palestine", label: "\u0641\u0644\u0633\u0637\u064A\u0646", stack: "'Palestine', 'Noto Naskh Arabic', serif" },
   { key: "p:Lifta Swash", label: "\u0644\u064A\u0641\u062A\u0627 \u0633\u0648\u0627\u0634", stack: "'Lifta Swash', 'Noto Naskh Arabic', serif" },
   { key: "p:Lifta Swash Fixed", label: "\u0644\u064A\u0641\u062A\u0627 \u0633\u0648\u0627\u0634 \u062B\u0627\u0628\u062A", stack: "'Lifta Swash Fixed', 'Noto Naskh Arabic', serif" },
   { key: "p:Lifta Black", label: "\u0644\u064A\u0641\u062A\u0627 \u0628\u0644\u0627\u0643", stack: "'Lifta Black', 'Noto Naskh Arabic', serif" },
@@ -24825,7 +24829,8 @@ function installBundledFonts() {
     ["AbdoLine-Thin", abdoline_thin_default],
     ["Sakkal Kitab", sakkal_kitab_default],
     ["Sakkal Kitab", sakkal_kitab_bold_default, "700"],
-    ["Lyon Arabic Display", lyon_arabic_black_default]
+    ["Lyon Arabic Display", lyon_arabic_black_default],
+    ["Palestine", palestine_default]
   ];
   for (const [family, url, weight] of defs) {
     registerFont(family, () => fetch(url).then((r) => {
@@ -25185,7 +25190,7 @@ function PoetPage({ pid }) {
   const sorted = sort === "default" ? rows : [...rows].sort((a, b) => sort === "alpha" ? (a[2] || a[3]).localeCompare(b[2] || b[3], "ar") : sort === "long" ? b[6] - a[6] : a[6] - b[6]);
   return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-poemhead", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h1", { children: poet.name }),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("h1", { className: "dw-poetname-title", children: poet.name }),
       /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", { className: "dw-meta", children: [
         poet.era ? /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { children: poet.era }) : null,
         /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("span", { children: [
