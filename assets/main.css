@@ -976,3 +976,25 @@
     max-width: 100%;
   }
 }
+.dw-lex .dw-lexprimary {
+  background: #0f766e;
+  color: #fff;
+  font-weight: 700;
+}
+.dw-lex .dw-lexsecondary,
+.dw-lex[data-noresult=true] .dw-lexsecondary {
+  margin-top: 8px;
+  background: transparent;
+  color: #0f766e;
+  border-color: #c7d7d2;
+  font-size: 18px;
+  font-weight: 400;
+}
+.dw-linkoutnote {
+  display: block;
+  margin-top: 9px;
+  text-align: center;
+  color: #746a58;
+  font-size: 15px;
+  line-height: 1.6;
+}
