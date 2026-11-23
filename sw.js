@@ -1,4 +1,4 @@
-const VERSION = 'diwan-v11-1d93e11b2b19';
+const VERSION = 'diwan-v12-38ac1392d4e6';
 const CACHE = VERSION;
 const ROOT = new URL('./', self.location).href;
 const shell = ['./', './index.html', './assets/main.js', './assets/main.css', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];

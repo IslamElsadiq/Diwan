@@ -1,0 +1,1627 @@
+{
+  "sample_size": 200,
+  "headwords": 8206,
+  "normalized_keys": 6492,
+  "exact_hits": 6,
+  "candidate_hits": 29,
+  "substantive_candidate_hits": 28,
+  "caveat": "Candidate retrieval, not semantic correctness. Same fixed 200 unique poetry words sampled 2026-11-23; stripping can produce unrelated words. No network requests.",
+  "results": [
+    {
+      "word": "وعاقل",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "عاقل",
+          [
+            "عَاقِل"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "مخايلا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وأعرقه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "كإيزاع",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "المعيوب",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "الوثب",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "وثب",
+          [
+            "وَثَبَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "يثمروا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "مأتما",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "الإلباس",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "للأسعد",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "أسعد",
+          [
+            "أَسْعَدَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "شاقتك",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "صدما",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وذوق",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بإذن",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أضحكها",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وأعادوا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "اضطرب",
+      "exact": true,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "اضطرب",
+          [
+            "اِضْطَرَبَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "الجزائل",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "غوثاه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وأشططنا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "تستقيل",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وحداد",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "الدلج",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "واقمطر",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ويلويني",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أورثها",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "تعوير",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ذانك",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "فغبرت",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وأهملت",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "خاطره",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أمحجوبة",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "إلآ",
+      "exact": true,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "إلآ",
+          [
+            "ألأ",
+            "إلا"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "وعماد",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "تسدل",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أنيابي",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "فلسيكم",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "يروك",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وعطاياك",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "مبن",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بقصرهم",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "قصر",
+          [
+            "قِصَر",
+            "قَصُرَ",
+            "قَصَرَ",
+            "قَصْر",
+            "قَصَّرَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "بالدول",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "يصاحبني",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وجوش",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "فواراته",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "مشاعره",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "الرسب",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "رسب",
+          [
+            "رَسَّبَ",
+            "رَسَبَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "ودفواءحدباء",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "نهيا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "حقول",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ويروى",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "عروس",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "عاشرته",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "لاستحالت",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "سكبها",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "سكب",
+          [
+            "سَكَبَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "مرماه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وأسقيك",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "غاداهم",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ضاجعا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وجراحة",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أنتجتا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "لقريش",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "قريش",
+          [
+            "قُرَيْش"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "كيده",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "يصدقك",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "هاجموه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "لاجرى",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "اجرى",
+          [
+            "أَجْرَى"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "تخطاه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "جلابها",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "توخوا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "الضحيا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أيعمى",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "خشوع",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "واقولها",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ضرر",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "كاعتراف",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "واعمد",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ونصيحة",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وبالموقف",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بريقتها",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ترض",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أخلاء",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ويذممن",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "غصونا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "فقدوا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "نفعلا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "كثرنا",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "كثر",
+          [
+            "كَثَرَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "وقرنت",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "للطاغوت",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وإيثار",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "تيارها",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وخرجة",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بابن",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بالأخرى",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "نضى",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "والكسل",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "فلديه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "فتحملا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ليكلأهم",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "والمندل",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "والترعة",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "نكل",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "الهجهاج",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "يرو",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "عجال",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وجفنين",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أعقة",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "الضاربي",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "يثق",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "تحاسى",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "والأبواب",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "أبواب",
+          [
+            "أبواب"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "الشرو",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "والمسرات",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "فأرود",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "أرود",
+          [
+            "أَرْوَدَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "لذوقه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بلسانها",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "لسان",
+          [
+            "لِسَان"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "دمائهم",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "الممحل",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وتعطو",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "واليت",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "نمسي",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "تنزعها",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "تأليها",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "لارند",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "خليني",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ظلمة",
+      "exact": true,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "ظلمة",
+          [
+            "ظُلْمَة"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "بإحدى",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "للإيقاد",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "فارعوى",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "جشامها",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وأغنه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بتستر",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "والتصريم",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "موان",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أذويبه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "عادها",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "عاد",
+          [
+            "عَادَ",
+            "عَاد"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "بسماحه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أمحاض",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "يطبع",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "كالخميل",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "استغاثا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بساحل",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "التبعون",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "إفراع",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "خلاصا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أضاليل",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "صيحته",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "صيحت",
+          [
+            "صِيْحَتْ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "فطورهم",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "فطور",
+          [
+            "فُطُوْر"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "بكائه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بالفريصة",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "قراعك",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بالصبر",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وألف",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "ألف",
+          [
+            "ألْف",
+            "أَلَّفَ",
+            "أَلِفَ",
+            "آلَفَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "بوقافة",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ظفرت",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "خوص",
+      "exact": true,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "خوص",
+          [
+            "خَوَّصَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "تحجر",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ومغتبطا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ملأتموه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "جديدات",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "تستقلن",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "أستجديه",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "يلزمنا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "حذاذ",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "خصومته",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "يترفق",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "رمينك",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "بحرف",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ويخزى",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "حمدون",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "فدلس",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "دلس",
+          [
+            "دَلَّسَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "معاصاته",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "المجذب",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "لمقتول",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "مقتول",
+          [
+            "مَقْتُول"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "سأشكره",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "شقص",
+      "exact": true,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "شقص",
+          [
+            "شَقَّصَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "ويوهب",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "مزاجا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "مستتبا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "مبري",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "ألمته",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "الترس",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": false,
+      "matches": [
+        [
+          "ترس",
+          [
+            "تَرَّسَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "وتعذر",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "عذرتني",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "هائم",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "كخرم",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "والطراق",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "الأغبر",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "أغبر",
+          [
+            "أَغْبَر"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "حاسي",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "حاس",
+          [
+            "حَاسَ"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "الطباقا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "السطوع",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "خوانهم",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "خوان",
+          [
+            "خُوَان"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "باستئصالها",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "حوران",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "كعبا",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "معيبة",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "كسور",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "متحدر",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "عيل",
+      "exact": true,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "عيل",
+          [
+            "عِيْلَ",
+            "عِيَل"
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "حراماته",
+      "exact": false,
+      "candidate": false,
+      "substantive_candidate": false,
+      "matches": []
+    },
+    {
+      "word": "وطرس",
+      "exact": false,
+      "candidate": true,
+      "substantive_candidate": true,
+      "matches": [
+        [
+          "طرس",
+          [
+            "طَرَسَ"
+          ]
+        ]
+      ]
+    }
+  ],
+  "engine_exact_diacritic_only_hits": 5,
+  "engine_with_candidates_hits": 29
+}
