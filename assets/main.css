@@ -613,6 +613,23 @@
     "Noto Naskh Arabic",
     serif;
 }
+.dw-root button,
+.dw-root .dw-navlinks a,
+.dw-root .dw-poetlink,
+.dw-root .dw-meta span,
+.dw-root .dw-poemnav a,
+.dw-root .dw-row label,
+.dw-root .dw-navsearch input,
+.dw-root .dw-kashlabel,
+.dw-root .dw-pfirst,
+.dw-root .dw-pinfo,
+.dw-root .dw-pmeta {
+  font-family:
+    "Sakkal Kitab",
+    "Noto Naskh Arabic",
+    sans-serif;
+  font-weight: 700;
+}
 .dw-root[data-stacked] .dw-bayt {
   flex-direction: column;
   gap: 2px;
