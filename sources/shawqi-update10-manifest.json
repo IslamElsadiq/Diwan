@@ -1,0 +1,4145 @@
+{
+  "source_chapters": 130,
+  "source_units": 369,
+  "excluded_quotations": [
+    [
+      "chapter-1-65.xhtml",
+      15,
+      "صُنتُ نفسي عمَّا يُدنِّسُ نفسي وترفَّعتُ عن ندى كلِّ جِبسِ"
+    ],
+    [
+      "chapter-1-65.xhtml",
+      16,
+      "والمنايا مَواثلٌ وأنوشر وانَ يُزجِي الجيوشَ تحتَ الدَّرَفسِ"
+    ],
+    [
+      "chapter-1-65.xhtml",
+      22,
+      "هبطَت إليك من المحلِّ الأرفعِ ورْقاءُ ذاتُ تَعزُّزٍ وتمنُّعِ محجوبةٌ ع"
+    ],
+    [
+      "chapter-1-66.xhtml",
+      4,
+      "يا ويْحَ أهليَ أبلَى بينَ أعيُنِهم على الفراشِ ولا يَدرُون ما دائي"
+    ],
+    [
+      "chapter-1-66.xhtml",
+      33,
+      "يقول أناسٌ لو وصفتَ لنا الهوى فوالله ما أدري الهوى كيف يُوصَفُ"
+    ]
+  ],
+  "added": 247,
+  "reconciled": 122,
+  "records": 517,
+  "visible_unique": 505,
+  "redirects": {
+    "125": 6,
+    "126": 110,
+    "127": 98,
+    "131": 40,
+    "134": 8,
+    "139": 31,
+    "141": 10,
+    "142": 106,
+    "146": 71,
+    "147": 4,
+    "149": 28,
+    "153": 85,
+    "158": 7,
+    "151": 15,
+    "128": 17,
+    "148": 61,
+    "150": 65,
+    "136": 66,
+    "135": 70,
+    "144": 72,
+    "145": 80,
+    "156": 83,
+    "133": 89,
+    "152": 105,
+    "132": 115
+  },
+  "actions": [
+    {
+      "index": 270,
+      "action": "added",
+      "title": "كبار الحوادث في وادي النيل",
+      "verses": 264,
+      "source": "https://www.safahat.org/books/70706142/1/",
+      "epub_file": "chapter-1-3.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 271,
+      "action": "added",
+      "title": "الهمزية النبوية",
+      "verses": 131,
+      "source": "https://www.safahat.org/books/70706142/2/",
+      "epub_file": "chapter-1-4.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 272,
+      "action": "added",
+      "title": "صدى الحرب",
+      "verses": 260,
+      "source": "https://www.safahat.org/books/70706142/3/",
+      "epub_file": "chapter-1-5.xhtml",
+      "containers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "index": 273,
+      "action": "added",
+      "title": "انتصار الأتراك في الحرب والسياسة",
+      "verses": 88,
+      "source": "https://www.safahat.org/books/70706142/4/",
+      "epub_file": "chapter-1-6.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 274,
+      "action": "added",
+      "title": "بعد المنفى",
+      "verses": 60,
+      "source": "https://www.safahat.org/books/70706142/5/",
+      "epub_file": "chapter-1-7.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 275,
+      "action": "added",
+      "title": "ذكرى المولد",
+      "verses": 71,
+      "source": "https://www.safahat.org/books/70706142/6/",
+      "epub_file": "chapter-1-8.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 276,
+      "action": "added",
+      "title": "مشروع ملنر",
+      "verses": 56,
+      "source": "https://www.safahat.org/books/70706142/7/",
+      "epub_file": "chapter-1-9.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 277,
+      "action": "added",
+      "title": "مشروع ٢٨ فبراير",
+      "verses": 35,
+      "source": "https://www.safahat.org/books/70706142/8/",
+      "epub_file": "chapter-1-10.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 278,
+      "action": "added",
+      "title": "الله والعلم",
+      "verses": 38,
+      "source": "https://www.safahat.org/books/70706142/9/",
+      "epub_file": "chapter-1-11.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 279,
+      "action": "added",
+      "title": "ذكرى كانارفون",
+      "verses": 55,
+      "source": "https://www.safahat.org/books/70706142/10/",
+      "epub_file": "chapter-1-12.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 280,
+      "action": "added",
+      "title": "أيها العمال",
+      "verses": 36,
+      "source": "https://www.safahat.org/books/70706142/11/",
+      "epub_file": "chapter-1-13.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 281,
+      "action": "added",
+      "title": "نجاة",
+      "verses": 52,
+      "source": "https://www.safahat.org/books/70706142/12/",
+      "epub_file": "chapter-1-14.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 282,
+      "action": "added",
+      "title": "إلى عرفات",
+      "verses": 42,
+      "source": "https://www.safahat.org/books/70706142/13/",
+      "epub_file": "chapter-1-15.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 283,
+      "action": "added",
+      "title": "مصر تجدِّد نفسها بنسائها المتجدِّدات",
+      "verses": 43,
+      "source": "https://www.safahat.org/books/70706142/14/",
+      "epub_file": "chapter-1-16.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 284,
+      "action": "added",
+      "title": "خلافة الإسلام",
+      "verses": 45,
+      "source": "https://www.safahat.org/books/70706142/15/",
+      "epub_file": "chapter-1-17.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 285,
+      "action": "added",
+      "title": "تكريم",
+      "verses": 50,
+      "source": "https://www.safahat.org/books/70706142/16/",
+      "epub_file": "chapter-1-18.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 286,
+      "action": "added",
+      "title": "على سفح الأهرام",
+      "verses": 37,
+      "source": "https://www.safahat.org/books/70706142/17/",
+      "epub_file": "chapter-1-19.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 287,
+      "action": "added",
+      "title": "المطرية تتكلَّم",
+      "verses": 31,
+      "source": "https://www.safahat.org/books/70706142/18/",
+      "epub_file": "chapter-1-20.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 288,
+      "action": "added",
+      "title": "الانقلاب العثماني وسقوط السلطان عبد الحميد",
+      "verses": 80,
+      "source": "https://www.safahat.org/books/70706142/19/",
+      "epub_file": "chapter-1-21.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 289,
+      "action": "added",
+      "title": "انتحار الطلبة",
+      "verses": 57,
+      "source": "https://www.safahat.org/books/70706142/20/",
+      "epub_file": "chapter-1-22.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 290,
+      "action": "added",
+      "title": "عبث المَشيب",
+      "verses": 36,
+      "source": "https://www.safahat.org/books/70706142/21/",
+      "epub_file": "chapter-1-23.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 291,
+      "action": "added",
+      "title": "أبو الهول",
+      "verses": 89,
+      "source": "https://www.safahat.org/books/70706142/22/",
+      "epub_file": "chapter-1-24.xhtml",
+      "containers": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "index": 292,
+      "action": "added",
+      "title": "مملكة النحل",
+      "verses": 66,
+      "source": "https://www.safahat.org/books/70706142/23/",
+      "epub_file": "chapter-1-25.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 293,
+      "action": "added",
+      "title": "في سبيل الهلال الأحمر",
+      "verses": 21,
+      "source": "https://www.safahat.org/books/70706142/24/",
+      "epub_file": "chapter-1-26.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 294,
+      "action": "added",
+      "title": "الأزهر",
+      "verses": 50,
+      "source": "https://www.safahat.org/books/70706142/25/",
+      "epub_file": "chapter-1-27.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 295,
+      "action": "added",
+      "title": "وداع فروق",
+      "verses": 17,
+      "source": "https://www.safahat.org/books/70706142/26/",
+      "epub_file": "chapter-1-28.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 296,
+      "action": "added",
+      "title": "رحالة الشرق",
+      "verses": 40,
+      "source": "https://www.safahat.org/books/70706142/27/",
+      "epub_file": "chapter-1-29.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 297,
+      "action": "added",
+      "title": "براءة",
+      "verses": 19,
+      "source": "https://www.safahat.org/books/70706142/28/",
+      "epub_file": "chapter-1-30.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 298,
+      "action": "added",
+      "title": "الصِّحافة",
+      "verses": 29,
+      "source": "https://www.safahat.org/books/70706142/29/",
+      "epub_file": "chapter-1-31.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 75,
+      "action": "reconciled",
+      "title": "عيد الفداء",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/30/",
+      "epub_file": "chapter-1-32.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 299,
+      "action": "added",
+      "title": "نكبة بيروت",
+      "verses": 22,
+      "source": "https://www.safahat.org/books/70706142/31/",
+      "epub_file": "chapter-1-33.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 300,
+      "action": "added",
+      "title": "تكليل أنقرة وعزل الآستانة",
+      "verses": 66,
+      "source": "https://www.safahat.org/books/70706142/32/",
+      "epub_file": "chapter-1-34.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 301,
+      "action": "added",
+      "title": "عيد الدهر وليلة القدر",
+      "verses": 57,
+      "source": "https://www.safahat.org/books/70706142/33/",
+      "epub_file": "chapter-1-35.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 302,
+      "action": "added",
+      "title": "وداع اللورد كرومر",
+      "verses": 43,
+      "source": "https://www.safahat.org/books/70706142/34/",
+      "epub_file": "chapter-1-36.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 303,
+      "action": "added",
+      "title": "بين الحجاب والسفور",
+      "verses": 54,
+      "source": "https://www.safahat.org/books/70706142/35/",
+      "epub_file": "chapter-1-37.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 304,
+      "action": "added",
+      "title": "العلم والتعليم وواجب المعلِّم",
+      "verses": 66,
+      "source": "https://www.safahat.org/books/70706142/36/",
+      "epub_file": "chapter-1-38.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 305,
+      "action": "added",
+      "title": "بنك مصر",
+      "verses": 17,
+      "source": "https://www.safahat.org/books/70706142/37/",
+      "epub_file": "chapter-1-39.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 306,
+      "action": "added",
+      "title": "مرحبًا بالهلال",
+      "verses": 41,
+      "source": "https://www.safahat.org/books/70706142/38/",
+      "epub_file": "chapter-1-40.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 307,
+      "action": "added",
+      "title": "يا شباب الديار",
+      "verses": 35,
+      "source": "https://www.safahat.org/books/70706142/39/",
+      "epub_file": "chapter-1-41.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 308,
+      "action": "added",
+      "title": "نهج البُردة",
+      "verses": 190,
+      "source": "https://www.safahat.org/books/70706142/40/",
+      "epub_file": "chapter-1-42.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 309,
+      "action": "added",
+      "title": "خاتمة رياض",
+      "verses": 39,
+      "source": "https://www.safahat.org/books/70706142/41/",
+      "epub_file": "chapter-1-43.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 310,
+      "action": "added",
+      "title": "ضجيج الحجيج",
+      "verses": 39,
+      "source": "https://www.safahat.org/books/70706142/42/",
+      "epub_file": "chapter-1-44.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 311,
+      "action": "added",
+      "title": "استقبال",
+      "verses": 33,
+      "source": "https://www.safahat.org/books/70706142/43/",
+      "epub_file": "chapter-1-45.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 312,
+      "action": "added",
+      "title": "أرسططاليس وترجمانه",
+      "verses": 52,
+      "source": "https://www.safahat.org/books/70706142/44/",
+      "epub_file": "chapter-1-46.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 313,
+      "action": "added",
+      "title": "شهيد الحق",
+      "verses": 48,
+      "source": "https://www.safahat.org/books/70706142/45/",
+      "epub_file": "chapter-1-47.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 314,
+      "action": "added",
+      "title": "تحية للتُّرك",
+      "verses": 19,
+      "source": "https://www.safahat.org/books/70706142/46/",
+      "epub_file": "chapter-1-48.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 315,
+      "action": "added",
+      "title": "الأسطول العثماني",
+      "verses": 47,
+      "source": "https://www.safahat.org/books/70706142/47/",
+      "epub_file": "chapter-1-49.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 316,
+      "action": "added",
+      "title": "الأندلس الجديدة",
+      "verses": 105,
+      "source": "https://www.safahat.org/books/70706142/48/",
+      "epub_file": "chapter-1-50.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 317,
+      "action": "added",
+      "title": "ضيف أمير المؤمنين",
+      "verses": 60,
+      "source": "https://www.safahat.org/books/70706142/49/",
+      "epub_file": "chapter-1-51.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 121,
+      "action": "reconciled",
+      "title": "ذكرى دنشواي",
+      "verses": 14,
+      "source": "https://www.safahat.org/books/70706142/50/",
+      "epub_file": "chapter-1-52.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 318,
+      "action": "added",
+      "title": "الهلال الأحمر",
+      "verses": 29,
+      "source": "https://www.safahat.org/books/70706142/51/",
+      "epub_file": "chapter-1-53.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 319,
+      "action": "added",
+      "title": "روما",
+      "verses": 29,
+      "source": "https://www.safahat.org/books/70706142/52/",
+      "epub_file": "chapter-1-54.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 320,
+      "action": "added",
+      "title": "على قبر نابليون",
+      "verses": 84,
+      "source": "https://www.safahat.org/books/70706142/53/",
+      "epub_file": "chapter-1-55.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 321,
+      "action": "added",
+      "title": "تكريم",
+      "verses": 37,
+      "source": "https://www.safahat.org/books/70706142/54/",
+      "epub_file": "chapter-1-56.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 322,
+      "action": "added",
+      "title": "اعتداء",
+      "verses": 48,
+      "source": "https://www.safahat.org/books/70706142/55/",
+      "epub_file": "chapter-1-57.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 323,
+      "action": "added",
+      "title": "توت عنخ آمون",
+      "verses": 82,
+      "source": "https://www.safahat.org/books/70706142/56/",
+      "epub_file": "chapter-1-58.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 324,
+      "action": "added",
+      "title": "تحية المؤتمر الجغرافي",
+      "verses": 33,
+      "source": "https://www.safahat.org/books/70706142/57/",
+      "epub_file": "chapter-1-59.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 325,
+      "action": "added",
+      "title": "الصليب الأحمر",
+      "verses": 20,
+      "source": "https://www.safahat.org/books/70706142/58/",
+      "epub_file": "chapter-1-60.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 326,
+      "action": "added",
+      "title": "تحيَّة للتُّرك",
+      "verses": 80,
+      "source": "https://www.safahat.org/books/70706142/59/",
+      "epub_file": "chapter-1-61.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 327,
+      "action": "added",
+      "title": "الدستور العثماني",
+      "verses": 52,
+      "source": "https://www.safahat.org/books/70706142/60/",
+      "epub_file": "chapter-1-62.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 328,
+      "action": "added",
+      "title": "الهلال والصليب الأحمران",
+      "verses": 30,
+      "source": "https://www.safahat.org/books/70706142/61/",
+      "epub_file": "chapter-1-63.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 329,
+      "action": "added",
+      "title": "آيةُ العَصر في سماءِ مِصر",
+      "verses": 58,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 330,
+      "action": "added",
+      "title": "شيكسبير",
+      "verses": 45,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        1
+      ]
+    },
+    {
+      "index": 331,
+      "action": "added",
+      "title": "أثَرُ البالِ في البال",
+      "verses": 79,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        2
+      ]
+    },
+    {
+      "index": 332,
+      "action": "added",
+      "title": "مَرقص",
+      "verses": 70,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        3
+      ]
+    },
+    {
+      "index": 333,
+      "action": "added",
+      "title": "تحلية كِتاب",
+      "verses": 73,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        4
+      ]
+    },
+    {
+      "index": 334,
+      "action": "added",
+      "title": "الربيع ووادي النيل",
+      "verses": 52,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        5
+      ]
+    },
+    {
+      "index": 335,
+      "action": "added",
+      "title": "مسجد أيَا صُوفيا",
+      "verses": 35,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        6
+      ]
+    },
+    {
+      "index": 336,
+      "action": "added",
+      "title": "غابُ بُولونيا",
+      "verses": 23,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        7
+      ]
+    },
+    {
+      "index": 337,
+      "action": "added",
+      "title": "المرأة العثمانية",
+      "verses": 20,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        8
+      ]
+    },
+    {
+      "index": 120,
+      "action": "reconciled",
+      "title": "الهلال",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        9
+      ]
+    },
+    {
+      "index": 338,
+      "action": "added",
+      "title": "مَنظر الشروق والغروب في عالم الماء من أعلى السفينة",
+      "verses": 22,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        10
+      ]
+    },
+    {
+      "index": 339,
+      "action": "added",
+      "title": "مَنظر طلوع البدر من سفينة",
+      "verses": 21,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        11
+      ]
+    },
+    {
+      "index": 340,
+      "action": "added",
+      "title": "بلدة المؤتمر لناظرها في بهجة مَناظرها",
+      "verses": 68,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        12
+      ]
+    },
+    {
+      "index": 0,
+      "action": "reconciled",
+      "title": "تلك الطبيعةُ قِفْ بنا يا ساري",
+      "verses": 60,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        13
+      ]
+    },
+    {
+      "index": 341,
+      "action": "added",
+      "title": "البسفور كأنك تراه",
+      "verses": 54,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        14
+      ]
+    },
+    {
+      "index": 342,
+      "action": "added",
+      "title": "الرحلة إلى الأندلس",
+      "verses": 111,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        17,
+        18
+      ]
+    },
+    {
+      "index": 343,
+      "action": "added",
+      "title": "كُوكْ صُو",
+      "verses": 30,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        19
+      ]
+    },
+    {
+      "index": 344,
+      "action": "added",
+      "title": "قالوا «فروقُ» المُلكِ دارُ مَخاوفٍ",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        20
+      ]
+    },
+    {
+      "index": 345,
+      "action": "added",
+      "title": "أنس الوجود",
+      "verses": 43,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        21
+      ]
+    },
+    {
+      "index": 346,
+      "action": "added",
+      "title": "النفس",
+      "verses": 45,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        23
+      ]
+    },
+    {
+      "index": 119,
+      "action": "reconciled",
+      "title": "ميدان الكونكورد",
+      "verses": 4,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        24
+      ]
+    },
+    {
+      "index": 347,
+      "action": "added",
+      "title": "أيها النيل",
+      "verses": 153,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        25
+      ]
+    },
+    {
+      "index": 348,
+      "action": "added",
+      "title": "نكبة دمشق",
+      "verses": 55,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        26
+      ]
+    },
+    {
+      "index": 349,
+      "action": "added",
+      "title": "رمضان ولَّى",
+      "verses": 33,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        27
+      ]
+    },
+    {
+      "index": 118,
+      "action": "reconciled",
+      "title": "مِصر",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        28
+      ]
+    },
+    {
+      "index": 117,
+      "action": "reconciled",
+      "title": "البحر الأبيض المتوسط",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        29
+      ]
+    },
+    {
+      "index": 116,
+      "action": "reconciled",
+      "title": "رزَقَ اللهُ أهلَ باريسَ خيرًا",
+      "verses": 8,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        30
+      ]
+    },
+    {
+      "index": 350,
+      "action": "added",
+      "title": "باريس",
+      "verses": 39,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        31
+      ]
+    },
+    {
+      "index": 115,
+      "action": "reconciled",
+      "title": "لنا صاحبٌ قد مُسَّ إلا بقيَّةً",
+      "verses": 5,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        32
+      ]
+    },
+    {
+      "index": 351,
+      "action": "added",
+      "title": "«محجوبُ» إن جئتَ «الحِجا",
+      "verses": 26,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        33
+      ]
+    },
+    {
+      "index": 352,
+      "action": "added",
+      "title": "طوكيو",
+      "verses": 33,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        34
+      ]
+    },
+    {
+      "index": 114,
+      "action": "reconciled",
+      "title": "طابَعُ البريد",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        35
+      ]
+    },
+    {
+      "index": 353,
+      "action": "added",
+      "title": "الطيارون الفرنسيون",
+      "verses": 60,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        36
+      ]
+    },
+    {
+      "index": 354,
+      "action": "added",
+      "title": "طالَ عليها القِدَمْ",
+      "verses": 68,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        37
+      ]
+    },
+    {
+      "index": 355,
+      "action": "added",
+      "title": "توت عنخ آمون وحضارة عصره",
+      "verses": 85,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        38
+      ]
+    },
+    {
+      "index": 356,
+      "action": "added",
+      "title": "دمشق",
+      "verses": 41,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        39
+      ]
+    },
+    {
+      "index": 113,
+      "action": "reconciled",
+      "title": "هذه نورُ السفينة",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        40
+      ]
+    },
+    {
+      "index": 357,
+      "action": "added",
+      "title": "أندلسية",
+      "verses": 83,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        41
+      ]
+    },
+    {
+      "index": 358,
+      "action": "added",
+      "title": "وصفُ الغواصة ونكبة الباخرة لُوزِيتانْيا",
+      "verses": 15,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        42
+      ]
+    },
+    {
+      "index": 112,
+      "action": "reconciled",
+      "title": "جسرُ البُسفور",
+      "verses": 31,
+      "source": "https://www.safahat.org/books/70706142/62/",
+      "epub_file": "chapter-1-65.xhtml",
+      "containers": [
+        43,
+        44
+      ]
+    },
+    {
+      "index": 76,
+      "action": "reconciled",
+      "title": "خدَعوها بقَولهم حسناءُ",
+      "verses": 8,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 359,
+      "action": "added",
+      "title": "نظرةٌ فابتسامةٌ فسلامٌ",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        1
+      ]
+    },
+    {
+      "index": 111,
+      "action": "reconciled",
+      "title": "لا السُّهْدُ يطويه ولا الإغضاءُ",
+      "verses": 7,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        2
+      ]
+    },
+    {
+      "index": 110,
+      "action": "reconciled",
+      "title": "سُوَيجعَ النيلِ رِفقًا بالسُّوَيداءِ",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        3
+      ]
+    },
+    {
+      "index": 360,
+      "action": "added",
+      "title": "يا ويْحَ أهليَ أبلَى بينَ أعيُنِهم",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        5
+      ]
+    },
+    {
+      "index": 109,
+      "action": "reconciled",
+      "title": "منكَ يا هاجرُ دائي",
+      "verses": 14,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        6
+      ]
+    },
+    {
+      "index": 108,
+      "action": "reconciled",
+      "title": "لقد لامني يا هندُ في الحب لائمٌ",
+      "verses": 4,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        7
+      ]
+    },
+    {
+      "index": 107,
+      "action": "reconciled",
+      "title": "على قدرِ الهوى يأتي العِتابُ",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        8
+      ]
+    },
+    {
+      "index": 361,
+      "action": "added",
+      "title": "أريدُ سُلوَّكم والقلبُ يأبى",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        9
+      ]
+    },
+    {
+      "index": 362,
+      "action": "added",
+      "title": "روَّعوه فتَولَّى مُغضَبا",
+      "verses": 19,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        10
+      ]
+    },
+    {
+      "index": 363,
+      "action": "added",
+      "title": "ما تلكَ أهدابي تَنظَّـ",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        11
+      ]
+    },
+    {
+      "index": 106,
+      "action": "reconciled",
+      "title": "لا والقوامِ الذي والأعينِ اللاتي",
+      "verses": 3,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        12
+      ]
+    },
+    {
+      "index": 105,
+      "action": "reconciled",
+      "title": "لحْظَها لحْظَها رُوَيدًا رُوَيدا",
+      "verses": 6,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        13
+      ]
+    },
+    {
+      "index": 104,
+      "action": "reconciled",
+      "title": "الرُّشدُ أجمَلُ سِيرةً يا أحمدُ",
+      "verses": 8,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        14
+      ]
+    },
+    {
+      "index": 103,
+      "action": "reconciled",
+      "title": "إن الوُشاةَ وإن لم أحصِهم عَددا",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        15
+      ]
+    },
+    {
+      "index": 364,
+      "action": "added",
+      "title": "بثَثتُ شكوايَ فذابَ الجليدْ",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        16
+      ]
+    },
+    {
+      "index": 365,
+      "action": "added",
+      "title": "يمدُّ الدُّجى في لَوعتي ويَزيدُ",
+      "verses": 23,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        17
+      ]
+    },
+    {
+      "index": 366,
+      "action": "added",
+      "title": "هامَ الفؤادُ بشادنٍ",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        18
+      ]
+    },
+    {
+      "index": 367,
+      "action": "added",
+      "title": "للعاشقين رِضاكَ والـ",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        19
+      ]
+    },
+    {
+      "index": 102,
+      "action": "reconciled",
+      "title": "في مقلتَيك مَصارعُ الأكبادِ",
+      "verses": 8,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        20
+      ]
+    },
+    {
+      "index": 101,
+      "action": "reconciled",
+      "title": "قِف باللواحظِ عندَ حدِّكْ",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        21
+      ]
+    },
+    {
+      "index": 368,
+      "action": "added",
+      "title": "مُضناك جفاهُ مَرقَدُهُ",
+      "verses": 27,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        22
+      ]
+    },
+    {
+      "index": 369,
+      "action": "added",
+      "title": "بالله يا نسَماتِ النيل في السَّحَرِ",
+      "verses": 24,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        23
+      ]
+    },
+    {
+      "index": 100,
+      "action": "reconciled",
+      "title": "عرَضوا الأمانَ على الخواطرْ",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        24
+      ]
+    },
+    {
+      "index": 99,
+      "action": "reconciled",
+      "title": "في ذي الجفونِ صوارمُ الأقدارِ",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        25
+      ]
+    },
+    {
+      "index": 98,
+      "action": "reconciled",
+      "title": "لك أن تلومَ ولي من الأعذارِ",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        26
+      ]
+    },
+    {
+      "index": 370,
+      "action": "added",
+      "title": "أتَغلبُني ذاتُ الدلالِ على صبري",
+      "verses": 19,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        27
+      ]
+    },
+    {
+      "index": 371,
+      "action": "added",
+      "title": "قلبٌ يذوب ومدمعٌ يجري",
+      "verses": 22,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        28
+      ]
+    },
+    {
+      "index": 372,
+      "action": "added",
+      "title": "بدأ الطيفُ بالجميلِ وزَارا",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        29
+      ]
+    },
+    {
+      "index": 373,
+      "action": "added",
+      "title": "أبثُّك وجْدي يا حَمامُ وأُودِعُ",
+      "verses": 18,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        30
+      ]
+    },
+    {
+      "index": 97,
+      "action": "reconciled",
+      "title": "تأتي الدَّلالَ سجيَّةً وتصنُّعا",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        31
+      ]
+    },
+    {
+      "index": 96,
+      "action": "reconciled",
+      "title": "رُدَّتِ الروحُ على المُضنى معَكْ",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        32
+      ]
+    },
+    {
+      "index": 374,
+      "action": "added",
+      "title": "يقول أناسٌ لو وصفتَ لنا الهوى",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        34
+      ]
+    },
+    {
+      "index": 95,
+      "action": "reconciled",
+      "title": "علَّموه كيفَ يجفو فجفا",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        35
+      ]
+    },
+    {
+      "index": 375,
+      "action": "added",
+      "title": "جئتَنا بالشعورِ والأحداقِ",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        36
+      ]
+    },
+    {
+      "index": 94,
+      "action": "reconciled",
+      "title": "مُضنًى وليس به حِراكْ",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        37
+      ]
+    },
+    {
+      "index": 93,
+      "action": "reconciled",
+      "title": "فدَتكَ الجوانحُ من نازلِ",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        38
+      ]
+    },
+    {
+      "index": 92,
+      "action": "reconciled",
+      "title": "لامَ فيكم عذولُه وأطالا",
+      "verses": 7,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        39
+      ]
+    },
+    {
+      "index": 91,
+      "action": "reconciled",
+      "title": "باتَ المُعنَّى والدُّجى يبتلي",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        40
+      ]
+    },
+    {
+      "index": 90,
+      "action": "reconciled",
+      "title": "أنا إن بذلتُ الروحَ كيف أُلامُ",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        41
+      ]
+    },
+    {
+      "index": 376,
+      "action": "added",
+      "title": "هل تيَّمَ البانُ فؤادَ الحَمامْ",
+      "verses": 20,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        42
+      ]
+    },
+    {
+      "index": 89,
+      "action": "reconciled",
+      "title": "صريعُ جفنَيك ينفي عنهما التُّهَما",
+      "verses": 7,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        43
+      ]
+    },
+    {
+      "index": 88,
+      "action": "reconciled",
+      "title": "ذادَ الكرى عن مقلتَيك حَمامُ",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        44
+      ]
+    },
+    {
+      "index": 87,
+      "action": "reconciled",
+      "title": "شغلَته أشغالٌ عن الآرامِ",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        45
+      ]
+    },
+    {
+      "index": 377,
+      "action": "added",
+      "title": "به سِحرٌ يُتيِّمُهُ",
+      "verses": 21,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        46
+      ]
+    },
+    {
+      "index": 378,
+      "action": "added",
+      "title": "مَن صوَّرَ السِّحرَ المُبينَ عيونا",
+      "verses": 21,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        47
+      ]
+    },
+    {
+      "index": 86,
+      "action": "reconciled",
+      "title": "أذعَنَ للحُسنِ عصيُّ العِنانْ",
+      "verses": 5,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        48
+      ]
+    },
+    {
+      "index": 85,
+      "action": "reconciled",
+      "title": "يا حُسنَه بين الحِسانْ",
+      "verses": 7,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        49
+      ]
+    },
+    {
+      "index": 84,
+      "action": "reconciled",
+      "title": "يا ناعمًا رقدَت جُفونُهْ",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        50
+      ]
+    },
+    {
+      "index": 83,
+      "action": "reconciled",
+      "title": "صحا القلبُ إلا من خُمارِ أماني",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        51
+      ]
+    },
+    {
+      "index": 82,
+      "action": "reconciled",
+      "title": "اللهَ في الخلقِ من صَبٍّ ومن غاني",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        52
+      ]
+    },
+    {
+      "index": 81,
+      "action": "reconciled",
+      "title": "قلبٌ بوادي الحِمى خلَّفتُه رَمقًا",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        53
+      ]
+    },
+    {
+      "index": 80,
+      "action": "reconciled",
+      "title": "قالوا له رُوحي فِداهْ",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        54
+      ]
+    },
+    {
+      "index": 79,
+      "action": "reconciled",
+      "title": "مقاديرُ من جَفنَيكِ حوَّلنَ حالِيا",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        55
+      ]
+    },
+    {
+      "index": 379,
+      "action": "added",
+      "title": "أهلَ القُدودِ التي صالت عَواليها",
+      "verses": 18,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        56
+      ]
+    },
+    {
+      "index": 78,
+      "action": "reconciled",
+      "title": "أُداري العيونَ الفاتراتِ السواجيا",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/63/",
+      "epub_file": "chapter-1-66.xhtml",
+      "containers": [
+        57
+      ]
+    },
+    {
+      "index": 380,
+      "action": "added",
+      "title": "مَصاير الأيام",
+      "verses": 67,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 381,
+      "action": "added",
+      "title": "لُبنان",
+      "verses": 42,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        1
+      ]
+    },
+    {
+      "index": 382,
+      "action": "added",
+      "title": "المؤتمر",
+      "verses": 55,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        2
+      ]
+    },
+    {
+      "index": 383,
+      "action": "added",
+      "title": "النَّسر المصري",
+      "verses": 39,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        3
+      ]
+    },
+    {
+      "index": 384,
+      "action": "added",
+      "title": "توت عنخ آمون والبرلمان",
+      "verses": 40,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        4
+      ]
+    },
+    {
+      "index": 385,
+      "action": "added",
+      "title": "مَصرع اللُّورد كِتْشنر",
+      "verses": 66,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        5
+      ]
+    },
+    {
+      "index": 386,
+      "action": "added",
+      "title": "البرلمان",
+      "verses": 45,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        6
+      ]
+    },
+    {
+      "index": 387,
+      "action": "added",
+      "title": "قُل للرجالِ طغى الأسيرْ",
+      "verses": 51,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        7
+      ]
+    },
+    {
+      "index": 388,
+      "action": "added",
+      "title": "تكريم حسنين بك بمناسبة طيرانه",
+      "verses": 31,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        8
+      ]
+    },
+    {
+      "index": 389,
+      "action": "added",
+      "title": "صقر قريش (عبد الرحمن الداخل)",
+      "verses": 132,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        9
+      ]
+    },
+    {
+      "index": 390,
+      "action": "added",
+      "title": "زَحلة",
+      "verses": 51,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        10
+      ]
+    },
+    {
+      "index": 391,
+      "action": "added",
+      "title": "ذِكرى استقلال سوريا وذكرى شُهدائها",
+      "verses": 54,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        11
+      ]
+    },
+    {
+      "index": 392,
+      "action": "added",
+      "title": "تمثال نهضة مصر",
+      "verses": 51,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        12
+      ]
+    },
+    {
+      "index": 393,
+      "action": "added",
+      "title": "الحرية الحمراء",
+      "verses": 26,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        13
+      ]
+    },
+    {
+      "index": 394,
+      "action": "added",
+      "title": "ابتغوا ناصيةَ الشمس مكانا",
+      "verses": 42,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        14
+      ]
+    },
+    {
+      "index": 395,
+      "action": "added",
+      "title": "مرحبًا بالربيع في ريعانِهْ",
+      "verses": 61,
+      "source": "https://www.safahat.org/books/70706142/64/",
+      "epub_file": "chapter-1-67.xhtml",
+      "containers": [
+        15
+      ]
+    },
+    {
+      "index": 396,
+      "action": "added",
+      "title": "سليمان باشا أباظه",
+      "verses": 18,
+      "source": "https://www.safahat.org/books/70706142/65/",
+      "epub_file": "chapter-1-69.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 397,
+      "action": "added",
+      "title": "مصطفى باشا فهمي",
+      "verses": 53,
+      "source": "https://www.safahat.org/books/70706142/66/",
+      "epub_file": "chapter-1-70.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 398,
+      "action": "added",
+      "title": "أبو هيف بك",
+      "verses": 41,
+      "source": "https://www.safahat.org/books/70706142/67/",
+      "epub_file": "chapter-1-71.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 399,
+      "action": "added",
+      "title": "مولانا محمد علي",
+      "verses": 22,
+      "source": "https://www.safahat.org/books/70706142/68/",
+      "epub_file": "chapter-1-72.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 400,
+      "action": "added",
+      "title": "سيد درويش",
+      "verses": 40,
+      "source": "https://www.safahat.org/books/70706142/69/",
+      "epub_file": "chapter-1-73.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 401,
+      "action": "added",
+      "title": "عمر المختار",
+      "verses": 40,
+      "source": "https://www.safahat.org/books/70706142/70/",
+      "epub_file": "chapter-1-74.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 402,
+      "action": "added",
+      "title": "عبد الحليم العلايلي بك",
+      "verses": 30,
+      "source": "https://www.safahat.org/books/70706142/71/",
+      "epub_file": "chapter-1-75.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 403,
+      "action": "added",
+      "title": "حافظ إبراهيم",
+      "verses": 52,
+      "source": "https://www.safahat.org/books/70706142/72/",
+      "epub_file": "chapter-1-76.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 404,
+      "action": "added",
+      "title": "محمد تيمور",
+      "verses": 44,
+      "source": "https://www.safahat.org/books/70706142/73/",
+      "epub_file": "chapter-1-77.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 405,
+      "action": "added",
+      "title": "يعقوب صرُّوف",
+      "verses": 49,
+      "source": "https://www.safahat.org/books/70706142/74/",
+      "epub_file": "chapter-1-78.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 406,
+      "action": "added",
+      "title": "حسين شيرين بك",
+      "verses": 35,
+      "source": "https://www.safahat.org/books/70706142/75/",
+      "epub_file": "chapter-1-79.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 407,
+      "action": "added",
+      "title": "محمد عبد المطلب",
+      "verses": 31,
+      "source": "https://www.safahat.org/books/70706142/76/",
+      "epub_file": "chapter-1-80.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 408,
+      "action": "added",
+      "title": "يرثي جدَّته",
+      "verses": 36,
+      "source": "https://www.safahat.org/books/70706142/77/",
+      "epub_file": "chapter-1-81.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 77,
+      "action": "reconciled",
+      "title": "محمد عبده",
+      "verses": 3,
+      "source": "https://www.safahat.org/books/70706142/78/",
+      "epub_file": "chapter-1-82.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 409,
+      "action": "added",
+      "title": "رياض باشا",
+      "verses": 95,
+      "source": "https://www.safahat.org/books/70706142/79/",
+      "epub_file": "chapter-1-83.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 410,
+      "action": "added",
+      "title": "عثمان باشا غالب",
+      "verses": 31,
+      "source": "https://www.safahat.org/books/70706142/80/",
+      "epub_file": "chapter-1-84.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 411,
+      "action": "added",
+      "title": "عبد الحي",
+      "verses": 28,
+      "source": "https://www.safahat.org/books/70706142/81/",
+      "epub_file": "chapter-1-85.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 412,
+      "action": "added",
+      "title": "محمد ثابت باشا",
+      "verses": 18,
+      "source": "https://www.safahat.org/books/70706142/82/",
+      "epub_file": "chapter-1-86.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 413,
+      "action": "added",
+      "title": "محمد فريد بك",
+      "verses": 56,
+      "source": "https://www.safahat.org/books/70706142/83/",
+      "epub_file": "chapter-1-87.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 414,
+      "action": "added",
+      "title": "البنون والحياة الدنيا",
+      "verses": 45,
+      "source": "https://www.safahat.org/books/70706142/84/",
+      "epub_file": "chapter-1-88.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 415,
+      "action": "added",
+      "title": "ثروت باشا",
+      "verses": 59,
+      "source": "https://www.safahat.org/books/70706142/85/",
+      "epub_file": "chapter-1-89.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 416,
+      "action": "added",
+      "title": "عبد العزيز جاويش",
+      "verses": 47,
+      "source": "https://www.safahat.org/books/70706142/86/",
+      "epub_file": "chapter-1-90.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 417,
+      "action": "added",
+      "title": "تعزية ورثاء",
+      "verses": 24,
+      "source": "https://www.safahat.org/books/70706142/87/",
+      "epub_file": "chapter-1-91.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 418,
+      "action": "added",
+      "title": "ذكرى هيجو",
+      "verses": 24,
+      "source": "https://www.safahat.org/books/70706142/88/",
+      "epub_file": "chapter-1-92.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 419,
+      "action": "added",
+      "title": "عبده الحامولي",
+      "verses": 32,
+      "source": "https://www.safahat.org/books/70706142/89/",
+      "epub_file": "chapter-1-93.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 420,
+      "action": "added",
+      "title": "قاسم بك أمين",
+      "verses": 51,
+      "source": "https://www.safahat.org/books/70706142/90/",
+      "epub_file": "chapter-1-94.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 421,
+      "action": "added",
+      "title": "تولستوي",
+      "verses": 53,
+      "source": "https://www.safahat.org/books/70706142/91/",
+      "epub_file": "chapter-1-95.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 422,
+      "action": "added",
+      "title": "عمر بك لطفي",
+      "verses": 28,
+      "source": "https://www.safahat.org/books/70706142/92/",
+      "epub_file": "chapter-1-96.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 423,
+      "action": "added",
+      "title": "عمر بك لطفي",
+      "verses": 40,
+      "source": "https://www.safahat.org/books/70706142/93/",
+      "epub_file": "chapter-1-97.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 424,
+      "action": "added",
+      "title": "الأميرة",
+      "verses": 40,
+      "source": "https://www.safahat.org/books/70706142/94/",
+      "epub_file": "chapter-1-98.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 425,
+      "action": "added",
+      "title": "ذكرى مصطفى كامل",
+      "verses": 37,
+      "source": "https://www.safahat.org/books/70706142/95/",
+      "epub_file": "chapter-1-99.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 426,
+      "action": "added",
+      "title": "المنفلوطي",
+      "verses": 40,
+      "source": "https://www.safahat.org/books/70706142/96/",
+      "epub_file": "chapter-1-100.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 427,
+      "action": "added",
+      "title": "عاطف بركات باشا",
+      "verses": 56,
+      "source": "https://www.safahat.org/books/70706142/97/",
+      "epub_file": "chapter-1-101.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 428,
+      "action": "added",
+      "title": "المويلحي",
+      "verses": 34,
+      "source": "https://www.safahat.org/books/70706142/98/",
+      "epub_file": "chapter-1-102.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 429,
+      "action": "added",
+      "title": "إسماعيل باشا صبري",
+      "verses": 73,
+      "source": "https://www.safahat.org/books/70706142/99/",
+      "epub_file": "chapter-1-103.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 430,
+      "action": "added",
+      "title": "فوزي الغزي",
+      "verses": 45,
+      "source": "https://www.safahat.org/books/70706142/100/",
+      "epub_file": "chapter-1-104.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 431,
+      "action": "added",
+      "title": "كريمة البارودي",
+      "verses": 30,
+      "source": "https://www.safahat.org/books/70706142/101/",
+      "epub_file": "chapter-1-105.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 432,
+      "action": "added",
+      "title": "فتحي ونوري",
+      "verses": 65,
+      "source": "https://www.safahat.org/books/70706142/102/",
+      "epub_file": "chapter-1-106.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 433,
+      "action": "added",
+      "title": "علي باشا أبو الفتوح",
+      "verses": 56,
+      "source": "https://www.safahat.org/books/70706142/103/",
+      "epub_file": "chapter-1-107.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 434,
+      "action": "added",
+      "title": "جورجي زيدان",
+      "verses": 47,
+      "source": "https://www.safahat.org/books/70706142/104/",
+      "epub_file": "chapter-1-108.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 435,
+      "action": "added",
+      "title": "شهداء العلم والغربة",
+      "verses": 52,
+      "source": "https://www.safahat.org/books/70706142/105/",
+      "epub_file": "chapter-1-109.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 436,
+      "action": "added",
+      "title": "سعيد زغلول بك",
+      "verses": 30,
+      "source": "https://www.safahat.org/books/70706142/106/",
+      "epub_file": "chapter-1-110.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 437,
+      "action": "added",
+      "title": "أمين بك الرافعي",
+      "verses": 49,
+      "source": "https://www.safahat.org/books/70706142/107/",
+      "epub_file": "chapter-1-111.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 438,
+      "action": "added",
+      "title": "الشيخ سلامة حجازي",
+      "verses": 26,
+      "source": "https://www.safahat.org/books/70706142/108/",
+      "epub_file": "chapter-1-112.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 439,
+      "action": "added",
+      "title": "أدهم باشا",
+      "verses": 31,
+      "source": "https://www.safahat.org/books/70706142/109/",
+      "epub_file": "chapter-1-113.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 440,
+      "action": "added",
+      "title": "عثمان باشا الغازي",
+      "verses": 32,
+      "source": "https://www.safahat.org/books/70706142/110/",
+      "epub_file": "chapter-1-114.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 441,
+      "action": "added",
+      "title": "بطرس باشا غالي",
+      "verses": 24,
+      "source": "https://www.safahat.org/books/70706142/111/",
+      "epub_file": "chapter-1-115.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 442,
+      "action": "added",
+      "title": "يبكي والدته",
+      "verses": 52,
+      "source": "https://www.safahat.org/books/70706142/112/",
+      "epub_file": "chapter-1-116.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 443,
+      "action": "added",
+      "title": "الملك حسين",
+      "verses": 49,
+      "source": "https://www.safahat.org/books/70706142/113/",
+      "epub_file": "chapter-1-117.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 444,
+      "action": "added",
+      "title": "يرثي أباه",
+      "verses": 31,
+      "source": "https://www.safahat.org/books/70706142/114/",
+      "epub_file": "chapter-1-118.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 445,
+      "action": "added",
+      "title": "مصطفى كامل باشا",
+      "verses": 64,
+      "source": "https://www.safahat.org/books/70706142/115/",
+      "epub_file": "chapter-1-119.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 446,
+      "action": "added",
+      "title": "حسن بك أنور",
+      "verses": 23,
+      "source": "https://www.safahat.org/books/70706142/116/",
+      "epub_file": "chapter-1-120.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 447,
+      "action": "added",
+      "title": "أم المحسنين",
+      "verses": 41,
+      "source": "https://www.safahat.org/books/70706142/117/",
+      "epub_file": "chapter-1-121.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 448,
+      "action": "added",
+      "title": "الدكتور أحمد فؤاد",
+      "verses": 37,
+      "source": "https://www.safahat.org/books/70706142/118/",
+      "epub_file": "chapter-1-122.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 449,
+      "action": "added",
+      "title": "نجل إمام اليمن",
+      "verses": 42,
+      "source": "https://www.safahat.org/books/70706142/119/",
+      "epub_file": "chapter-1-123.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 450,
+      "action": "added",
+      "title": "عبد الله بك الطوير",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/120/",
+      "epub_file": "chapter-1-124.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 451,
+      "action": "added",
+      "title": "سعد باشا زغلول",
+      "verses": 94,
+      "source": "https://www.safahat.org/books/70706142/121/",
+      "epub_file": "chapter-1-125.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 452,
+      "action": "added",
+      "title": "الشاعر الموسيقي فردي",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/122/",
+      "epub_file": "chapter-1-126.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 453,
+      "action": "added",
+      "title": "إسماعيل أباظة باشا",
+      "verses": 41,
+      "source": "https://www.safahat.org/books/70706142/123/",
+      "epub_file": "chapter-1-127.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 454,
+      "action": "added",
+      "title": "علي بهجت",
+      "verses": 57,
+      "source": "https://www.safahat.org/books/70706142/124/",
+      "epub_file": "chapter-1-128.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 455,
+      "action": "added",
+      "title": "الجامعة المصرية",
+      "verses": 53,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 456,
+      "action": "added",
+      "title": "بنك مصر",
+      "verses": 51,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        1
+      ]
+    },
+    {
+      "index": 457,
+      "action": "added",
+      "title": "دار بنك مصر",
+      "verses": 50,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        2
+      ]
+    },
+    {
+      "index": 458,
+      "action": "added",
+      "title": "دار العلوم",
+      "verses": 51,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        3
+      ]
+    },
+    {
+      "index": 459,
+      "action": "added",
+      "title": "إسكندريةُ آن أن تتجدَّدي",
+      "verses": 26,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        4
+      ]
+    },
+    {
+      "index": 460,
+      "action": "added",
+      "title": "فِتيةَ الوادي عرَفْنا صوتكم",
+      "verses": 40,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        5
+      ]
+    },
+    {
+      "index": 461,
+      "action": "added",
+      "title": "عيد الجهاد",
+      "verses": 47,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        6
+      ]
+    },
+    {
+      "index": 462,
+      "action": "added",
+      "title": "مَعالي العهد",
+      "verses": 66,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        7
+      ]
+    },
+    {
+      "index": 463,
+      "action": "added",
+      "title": "رسالة الناشئة",
+      "verses": 91,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        8
+      ]
+    },
+    {
+      "index": 74,
+      "action": "reconciled",
+      "title": "حَجُّ الأمير",
+      "verses": 4,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        9
+      ]
+    },
+    {
+      "index": 73,
+      "action": "reconciled",
+      "title": "أبكيكَ إسماعيلَ مِصرَ وفي البُكى",
+      "verses": 6,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        10
+      ]
+    },
+    {
+      "index": 464,
+      "action": "added",
+      "title": "حريقُ ميتْ غَمْر",
+      "verses": 44,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        11
+      ]
+    },
+    {
+      "index": 72,
+      "action": "reconciled",
+      "title": "خُطبةُ غَلْيُوم",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        12
+      ]
+    },
+    {
+      "index": 465,
+      "action": "added",
+      "title": "خطَّت يداكَ الرَّوضةَ الغنَّاءَ",
+      "verses": 37,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        13
+      ]
+    },
+    {
+      "index": 466,
+      "action": "added",
+      "title": "في دار الأوبرا",
+      "verses": 34,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        14
+      ]
+    },
+    {
+      "index": 71,
+      "action": "reconciled",
+      "title": "مَصرع بُطرس غالي باشا",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        15
+      ]
+    },
+    {
+      "index": 467,
+      "action": "added",
+      "title": "تحية غَلْيُوم الثاني لصلاح الدين في القبر",
+      "verses": 15,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        16
+      ]
+    },
+    {
+      "index": 468,
+      "action": "added",
+      "title": "الفَنار",
+      "verses": 18,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        17
+      ]
+    },
+    {
+      "index": 469,
+      "action": "added",
+      "title": "حارس الفنار ودلفين",
+      "verses": 27,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        18
+      ]
+    },
+    {
+      "index": 70,
+      "action": "reconciled",
+      "title": "القمر على آفاق كلازُومينَ ليلةَ المولد النبوي الأسنى",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        19
+      ]
+    },
+    {
+      "index": 470,
+      "action": "added",
+      "title": "أثينا",
+      "verses": 19,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        20
+      ]
+    },
+    {
+      "index": 69,
+      "action": "reconciled",
+      "title": "ذكرى محمد فريد",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        21
+      ]
+    },
+    {
+      "index": 471,
+      "action": "added",
+      "title": "النخيل ما بين المُنتزَه وأبي قِير",
+      "verses": 21,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        22
+      ]
+    },
+    {
+      "index": 472,
+      "action": "added",
+      "title": "البحر الأبيض",
+      "verses": 42,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        23
+      ]
+    },
+    {
+      "index": 473,
+      "action": "added",
+      "title": "قِف حيِّ شُبانَ الحِمى",
+      "verses": 19,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        24
+      ]
+    },
+    {
+      "index": 474,
+      "action": "added",
+      "title": "بأرضِ الجيزةِ اجتازَ الغَمامُ",
+      "verses": 35,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        25
+      ]
+    },
+    {
+      "index": 475,
+      "action": "added",
+      "title": "فتحيَّةٌ دنيا تدومُ وصِحةٌ",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        26
+      ]
+    },
+    {
+      "index": 68,
+      "action": "reconciled",
+      "title": "يدُ الملِكِ العَلَويِّ الكريمِ",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        27
+      ]
+    },
+    {
+      "index": 476,
+      "action": "added",
+      "title": "شرفًا نُصيرُ ارفعْ جَبينَك عاليًا",
+      "verses": 21,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        28
+      ]
+    },
+    {
+      "index": 477,
+      "action": "added",
+      "title": "ابن زيدون",
+      "verses": 30,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        29
+      ]
+    },
+    {
+      "index": 67,
+      "action": "reconciled",
+      "title": "البُلبل الغرِد الذي هز الرُّبا",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        30
+      ]
+    },
+    {
+      "index": 478,
+      "action": "added",
+      "title": "خليل مُطران",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        31
+      ]
+    },
+    {
+      "index": 479,
+      "action": "added",
+      "title": "غانْدي",
+      "verses": 39,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        32
+      ]
+    },
+    {
+      "index": 66,
+      "action": "reconciled",
+      "title": "تحية أبُولُّو",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        33
+      ]
+    },
+    {
+      "index": 65,
+      "action": "reconciled",
+      "title": "أغنية",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        34
+      ]
+    },
+    {
+      "index": 64,
+      "action": "reconciled",
+      "title": "يا شِراعًا وراء دجلة",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        35
+      ]
+    },
+    {
+      "index": 63,
+      "action": "reconciled",
+      "title": "الرجل السعيد",
+      "verses": 14,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        36
+      ]
+    },
+    {
+      "index": 62,
+      "action": "reconciled",
+      "title": "الأثَر",
+      "verses": 7,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        37
+      ]
+    },
+    {
+      "index": 480,
+      "action": "added",
+      "title": "السِّتار",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/125/",
+      "epub_file": "chapter-1-132.xhtml",
+      "containers": [
+        38
+      ]
+    },
+    {
+      "index": 481,
+      "action": "added",
+      "title": "أبو علي",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 61,
+      "action": "reconciled",
+      "title": "عليُّ لو استشرتَ أباكَ قبْلًا",
+      "verses": 3,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        1
+      ]
+    },
+    {
+      "index": 60,
+      "action": "reconciled",
+      "title": "رُزِقتُ صاحِبَ عهدي",
+      "verses": 7,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        2
+      ]
+    },
+    {
+      "index": 157,
+      "action": "reconciled",
+      "title": "يا ليلة",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        3
+      ]
+    },
+    {
+      "index": 59,
+      "action": "reconciled",
+      "title": "أَمِينتي في عامِها الـ",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        4
+      ]
+    },
+    {
+      "index": 58,
+      "action": "reconciled",
+      "title": "أَمينةُ يا بِنتيَ الغالية",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        5
+      ]
+    },
+    {
+      "index": 482,
+      "action": "added",
+      "title": "الأنانية",
+      "verses": 17,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        6
+      ]
+    },
+    {
+      "index": 483,
+      "action": "added",
+      "title": "صِغارٌ بحُلوانَ تَستبشرُ",
+      "verses": 36,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        7
+      ]
+    },
+    {
+      "index": 1,
+      "action": "reconciled",
+      "title": "يا شِبْهَ سيِّدةِ البَتُو",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        8
+      ]
+    },
+    {
+      "index": 57,
+      "action": "reconciled",
+      "title": "هذه أوَّلُ خَطْوة",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        9
+      ]
+    },
+    {
+      "index": 484,
+      "action": "added",
+      "title": "بكَيا لأجلِ خُروجِه في زَوْرةٍ",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        10
+      ]
+    },
+    {
+      "index": 485,
+      "action": "added",
+      "title": "أقسمتُ لو أمرَ الزمانُ سماءَهُ",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        11
+      ]
+    },
+    {
+      "index": 56,
+      "action": "reconciled",
+      "title": "سرَّنا أنك ارتقيت",
+      "verses": 3,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        12
+      ]
+    },
+    {
+      "index": 55,
+      "action": "reconciled",
+      "title": "ذِي همَّةٍ دونها في شأوِها الهِممُ",
+      "verses": 5,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        13
+      ]
+    },
+    {
+      "index": 54,
+      "action": "reconciled",
+      "title": "أتَتني الصُّحْفُ عنك مُخبِّراتِ",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        14
+      ]
+    },
+    {
+      "index": 53,
+      "action": "reconciled",
+      "title": "سألتُك بالوِدادِ أبا حُسَينٍ",
+      "verses": 8,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        15
+      ]
+    },
+    {
+      "index": 52,
+      "action": "reconciled",
+      "title": "قالوا «تمايَزَ» حمزةُ",
+      "verses": 5,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        16
+      ]
+    },
+    {
+      "index": 51,
+      "action": "reconciled",
+      "title": "لقد وافَتنيَ البُشرى",
+      "verses": 7,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        17
+      ]
+    },
+    {
+      "index": 486,
+      "action": "added",
+      "title": "كُن في التواضعِ كالمُدا",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        18
+      ]
+    },
+    {
+      "index": 487,
+      "action": "added",
+      "title": "وجَنَّاتٍ من الأشعار فيها",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        19
+      ]
+    },
+    {
+      "index": 488,
+      "action": "added",
+      "title": "مجموعةٌ لأحمدٍ",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/126/",
+      "epub_file": "chapter-1-133.xhtml",
+      "containers": [
+        20
+      ]
+    },
+    {
+      "index": 50,
+      "action": "reconciled",
+      "title": "أنتَ وأنا",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 49,
+      "action": "reconciled",
+      "title": "نَديم الباذنجان",
+      "verses": 14,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        1
+      ]
+    },
+    {
+      "index": 489,
+      "action": "added",
+      "title": "ضِيافة قِطة",
+      "verses": 34,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        2
+      ]
+    },
+    {
+      "index": 490,
+      "action": "added",
+      "title": "الصيَّاد والعُصفورة",
+      "verses": 21,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        3
+      ]
+    },
+    {
+      "index": 48,
+      "action": "reconciled",
+      "title": "البلابل التي ربَّاها البُوم",
+      "verses": 7,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        4
+      ]
+    },
+    {
+      "index": 491,
+      "action": "added",
+      "title": "الدِّيك الهندي والدجاج البلدي",
+      "verses": 15,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        5
+      ]
+    },
+    {
+      "index": 47,
+      "action": "reconciled",
+      "title": "العُصفور والغَدير المهجور",
+      "verses": 14,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        6
+      ]
+    },
+    {
+      "index": 492,
+      "action": "added",
+      "title": "الأفعى النِّيلية والعقربة الهندية",
+      "verses": 18,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        7
+      ]
+    },
+    {
+      "index": 46,
+      "action": "reconciled",
+      "title": "السَّلُوقيُّ والجواد",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        8
+      ]
+    },
+    {
+      "index": 493,
+      "action": "added",
+      "title": "فأر الغيط وفأر البيت",
+      "verses": 26,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        9
+      ]
+    },
+    {
+      "index": 494,
+      "action": "added",
+      "title": "مَلك الغِربان ونُدور الخادم",
+      "verses": 15,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        10
+      ]
+    },
+    {
+      "index": 495,
+      "action": "added",
+      "title": "الظَّبي والعِقد والخِنزير",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        11
+      ]
+    },
+    {
+      "index": 496,
+      "action": "added",
+      "title": "وليُّ عهد الأسد وخُطبة الحمار",
+      "verses": 15,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        12
+      ]
+    },
+    {
+      "index": 497,
+      "action": "added",
+      "title": "الأسد والثعلب والعِجل",
+      "verses": 24,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        13
+      ]
+    },
+    {
+      "index": 498,
+      "action": "added",
+      "title": "القرد والفيل",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        14
+      ]
+    },
+    {
+      "index": 499,
+      "action": "added",
+      "title": "الشاة والغُراب",
+      "verses": 15,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        15
+      ]
+    },
+    {
+      "index": 500,
+      "action": "added",
+      "title": "أُمة الأرانب والفيل",
+      "verses": 24,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        16
+      ]
+    },
+    {
+      "index": 501,
+      "action": "added",
+      "title": "حكاية الخفاش ومليكة الفَراش",
+      "verses": 31,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        17
+      ]
+    },
+    {
+      "index": 502,
+      "action": "added",
+      "title": "الأسد ووزيره الحمار",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        18
+      ]
+    },
+    {
+      "index": 45,
+      "action": "reconciled",
+      "title": "النملة والمُقطَّم",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        19
+      ]
+    },
+    {
+      "index": 44,
+      "action": "reconciled",
+      "title": "الغزال والكلب",
+      "verses": 14,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        20
+      ]
+    },
+    {
+      "index": 43,
+      "action": "reconciled",
+      "title": "الثعلب والدِّيك",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        21
+      ]
+    },
+    {
+      "index": 42,
+      "action": "reconciled",
+      "title": "النعجة وأولادها",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        22
+      ]
+    },
+    {
+      "index": 503,
+      "action": "added",
+      "title": "الكلب والقط والفأر",
+      "verses": 15,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        23
+      ]
+    },
+    {
+      "index": 41,
+      "action": "reconciled",
+      "title": "سليمان والهدهد",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        24
+      ]
+    },
+    {
+      "index": 504,
+      "action": "added",
+      "title": "سليمان والطاووس",
+      "verses": 18,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        25
+      ]
+    },
+    {
+      "index": 40,
+      "action": "reconciled",
+      "title": "الغصن والخنفساء",
+      "verses": 5,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        26
+      ]
+    },
+    {
+      "index": 39,
+      "action": "reconciled",
+      "title": "القُبَّرة وابنُها",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        27
+      ]
+    },
+    {
+      "index": 38,
+      "action": "reconciled",
+      "title": "النعجتان",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        28
+      ]
+    },
+    {
+      "index": 37,
+      "action": "reconciled",
+      "title": "السفينة والحيوانات",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        29
+      ]
+    },
+    {
+      "index": 36,
+      "action": "reconciled",
+      "title": "القرد في السفينة",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        30
+      ]
+    },
+    {
+      "index": 35,
+      "action": "reconciled",
+      "title": "نُوح — عليه السلام — والنملة في السفينة",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        31
+      ]
+    },
+    {
+      "index": 34,
+      "action": "reconciled",
+      "title": "الدُّب في السفينة",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        32
+      ]
+    },
+    {
+      "index": 33,
+      "action": "reconciled",
+      "title": "الثعلب في السفينة",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        33
+      ]
+    },
+    {
+      "index": 32,
+      "action": "reconciled",
+      "title": "الليث والذئب في السفينة",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        34
+      ]
+    },
+    {
+      "index": 31,
+      "action": "reconciled",
+      "title": "الثعلب والأرنب في السفينة",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        35
+      ]
+    },
+    {
+      "index": 30,
+      "action": "reconciled",
+      "title": "الأرنب وبِنت عِرس في السفينة",
+      "verses": 6,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        36
+      ]
+    },
+    {
+      "index": 29,
+      "action": "reconciled",
+      "title": "الحمار في السفينة",
+      "verses": 3,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        37
+      ]
+    },
+    {
+      "index": 505,
+      "action": "added",
+      "title": "سليمان — عليه السلام — والحمامة",
+      "verses": 17,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        38
+      ]
+    },
+    {
+      "index": 28,
+      "action": "reconciled",
+      "title": "الأسد والضِّفدع",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        39
+      ]
+    },
+    {
+      "index": 506,
+      "action": "added",
+      "title": "النملة الزاهدة",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        40
+      ]
+    },
+    {
+      "index": 27,
+      "action": "reconciled",
+      "title": "اليمامة والصياد",
+      "verses": 8,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        41
+      ]
+    },
+    {
+      "index": 26,
+      "action": "reconciled",
+      "title": "الكلب والحمامة",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        42
+      ]
+    },
+    {
+      "index": 25,
+      "action": "reconciled",
+      "title": "الكلب والببَّغاء",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        43
+      ]
+    },
+    {
+      "index": 24,
+      "action": "reconciled",
+      "title": "الحمار والجَمل",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        44
+      ]
+    },
+    {
+      "index": 507,
+      "action": "added",
+      "title": "دودةُ القَزِّ والدُّودةُ الوضَّاءة",
+      "verses": 21,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        45
+      ]
+    },
+    {
+      "index": 23,
+      "action": "reconciled",
+      "title": "الجَمل والثعلب",
+      "verses": 12,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        46
+      ]
+    },
+    {
+      "index": 22,
+      "action": "reconciled",
+      "title": "الغزالة والأتان",
+      "verses": 5,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        47
+      ]
+    },
+    {
+      "index": 21,
+      "action": "reconciled",
+      "title": "الثعلب الذي انخدع",
+      "verses": 8,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        48
+      ]
+    },
+    {
+      "index": 20,
+      "action": "reconciled",
+      "title": "ثُعالة والحمار",
+      "verses": 6,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        49
+      ]
+    },
+    {
+      "index": 19,
+      "action": "reconciled",
+      "title": "البغل والجواد",
+      "verses": 6,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        50
+      ]
+    },
+    {
+      "index": 18,
+      "action": "reconciled",
+      "title": "الفأرة والقط",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        51
+      ]
+    },
+    {
+      "index": 17,
+      "action": "reconciled",
+      "title": "الغزال والخروف والتَّيس والذئب",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        52
+      ]
+    },
+    {
+      "index": 16,
+      "action": "reconciled",
+      "title": "الثعلب والأرنب والديك",
+      "verses": 8,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        53
+      ]
+    },
+    {
+      "index": 15,
+      "action": "reconciled",
+      "title": "الثعلب وأم الذئب",
+      "verses": 8,
+      "source": "https://www.safahat.org/books/70706142/127/",
+      "epub_file": "chapter-1-134.xhtml",
+      "containers": [
+        54
+      ]
+    },
+    {
+      "index": 14,
+      "action": "reconciled",
+      "title": "الهِرَّة والنظافة",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/128/",
+      "epub_file": "chapter-1-135.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 13,
+      "action": "reconciled",
+      "title": "الجَدَّة",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/128/",
+      "epub_file": "chapter-1-135.xhtml",
+      "containers": [
+        1
+      ]
+    },
+    {
+      "index": 12,
+      "action": "reconciled",
+      "title": "الوطن",
+      "verses": 13,
+      "source": "https://www.safahat.org/books/70706142/128/",
+      "epub_file": "chapter-1-135.xhtml",
+      "containers": [
+        2
+      ]
+    },
+    {
+      "index": 11,
+      "action": "reconciled",
+      "title": "الرفق بالحيوان",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/128/",
+      "epub_file": "chapter-1-135.xhtml",
+      "containers": [
+        3
+      ]
+    },
+    {
+      "index": 10,
+      "action": "reconciled",
+      "title": "الأُمُّ",
+      "verses": 7,
+      "source": "https://www.safahat.org/books/70706142/128/",
+      "epub_file": "chapter-1-135.xhtml",
+      "containers": [
+        4
+      ]
+    },
+    {
+      "index": 508,
+      "action": "added",
+      "title": "ولد الغُراب",
+      "verses": 18,
+      "source": "https://www.safahat.org/books/70706142/128/",
+      "epub_file": "chapter-1-135.xhtml",
+      "containers": [
+        5
+      ]
+    },
+    {
+      "index": 9,
+      "action": "reconciled",
+      "title": "النِّيل",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/128/",
+      "epub_file": "chapter-1-135.xhtml",
+      "containers": [
+        6
+      ]
+    },
+    {
+      "index": 8,
+      "action": "reconciled",
+      "title": "المدرسة",
+      "verses": 11,
+      "source": "https://www.safahat.org/books/70706142/128/",
+      "epub_file": "chapter-1-135.xhtml",
+      "containers": [
+        7
+      ]
+    },
+    {
+      "index": 509,
+      "action": "added",
+      "title": "نشيد مصر",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/128/",
+      "epub_file": "chapter-1-135.xhtml",
+      "containers": [
+        8
+      ]
+    },
+    {
+      "index": 510,
+      "action": "added",
+      "title": "نشيد الكشافة",
+      "verses": 16,
+      "source": "https://www.safahat.org/books/70706142/128/",
+      "epub_file": "chapter-1-135.xhtml",
+      "containers": [
+        9
+      ]
+    },
+    {
+      "index": 511,
+      "action": "added",
+      "title": "قصْرَ الأعِزَّةِ ما أعَزَّ حِماكا",
+      "verses": 28,
+      "source": "https://www.safahat.org/books/70706142/129/",
+      "epub_file": "chapter-1-136.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 512,
+      "action": "added",
+      "title": "مُنتَزهُ العبَّاسِ للمُجتلي",
+      "verses": 23,
+      "source": "https://www.safahat.org/books/70706142/129/",
+      "epub_file": "chapter-1-136.xhtml",
+      "containers": [
+        1
+      ]
+    },
+    {
+      "index": 513,
+      "action": "added",
+      "title": "ما باتَ يُثني على عَلياكَ إنسانُ",
+      "verses": 19,
+      "source": "https://www.safahat.org/books/70706142/129/",
+      "epub_file": "chapter-1-136.xhtml",
+      "containers": [
+        2
+      ]
+    },
+    {
+      "index": 514,
+      "action": "added",
+      "title": "أعطى البرِيَّةَ إذ أعطاكَ باريها",
+      "verses": 20,
+      "source": "https://www.safahat.org/books/70706142/129/",
+      "epub_file": "chapter-1-136.xhtml",
+      "containers": [
+        3
+      ]
+    },
+    {
+      "index": 515,
+      "action": "added",
+      "title": "بيني وبين أبي العلاء",
+      "verses": 2,
+      "source": "https://www.safahat.org/books/70706142/129/",
+      "epub_file": "chapter-1-136.xhtml",
+      "containers": [
+        4
+      ]
+    },
+    {
+      "index": 7,
+      "action": "reconciled",
+      "title": "دواء المُتيَّم",
+      "verses": 4,
+      "source": "https://www.safahat.org/books/70706142/129/",
+      "epub_file": "chapter-1-136.xhtml",
+      "containers": [
+        5
+      ]
+    },
+    {
+      "index": 6,
+      "action": "reconciled",
+      "title": "سعَت لكَ صُورتي وأتاكَ شَخصي",
+      "verses": 3,
+      "source": "https://www.safahat.org/books/70706142/129/",
+      "epub_file": "chapter-1-136.xhtml",
+      "containers": [
+        6
+      ]
+    },
+    {
+      "index": 516,
+      "action": "added",
+      "title": "بيْنَ مَكْسُويني والأُوتُومُبيل",
+      "verses": 34,
+      "source": "https://www.safahat.org/books/70706142/130/",
+      "epub_file": "chapter-1-137.xhtml",
+      "containers": [
+        0
+      ]
+    },
+    {
+      "index": 5,
+      "action": "reconciled",
+      "title": "مَكْسويني",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/130/",
+      "epub_file": "chapter-1-137.xhtml",
+      "containers": [
+        1
+      ]
+    },
+    {
+      "index": 4,
+      "action": "reconciled",
+      "title": "ذخيرة",
+      "verses": 9,
+      "source": "https://www.safahat.org/books/70706142/130/",
+      "epub_file": "chapter-1-137.xhtml",
+      "containers": [
+        2
+      ]
+    },
+    {
+      "index": 3,
+      "action": "reconciled",
+      "title": "براغيث محجوب",
+      "verses": 10,
+      "source": "https://www.safahat.org/books/70706142/130/",
+      "epub_file": "chapter-1-137.xhtml",
+      "containers": [
+        3
+      ]
+    }
+  ],
+  "visible_deduped": 492,
+  "note": "Exact full-text repeats and same-opening near-duplicate edition variants hidden; direct legacy links preserved."
+}

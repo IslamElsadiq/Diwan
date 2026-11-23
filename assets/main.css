@@ -941,3 +941,38 @@
   font-family: var(--rd-font,"AbdoLine",serif);
   font-weight: 400;
 }
+.dw-source {
+  font-family: "Sakkal Kitab", serif;
+  font-size: 19px;
+  line-height: 1.6;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+  margin: 12px 0;
+}
+.dw-source a {
+  text-decoration: underline;
+}
+.dw-source,
+.dw-source * {
+  font-family: "Sakkal Kitab", serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.6;
+}
+.dw-source {
+  text-align: center;
+}
+.dw-source a {
+  color: #087d79;
+}
+@media (max-width: 640px) {
+  .dw-toggle {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+  .dw-toggle > * {
+    flex-shrink: 1;
+    max-width: 100%;
+  }
+}
